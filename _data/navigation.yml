@@ -10,3 +10,4 @@ main:
     url: /publications/
   - title: "Code"
     url: https://github.com/plant-ai-biophysics-lab
+    target: "_blank"
