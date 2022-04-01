@@ -1,7 +1,7 @@
 ---
 layout: single
-permalink: /papers/
-title: "Papers"
+permalink: /code/
+title: "Code"
 ---
 
 More to come!

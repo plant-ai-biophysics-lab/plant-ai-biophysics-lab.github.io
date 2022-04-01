@@ -2,11 +2,11 @@
 main:
   - title: "About"
     url: /
-  - title: "Program"
-    url: /program/
-  - title: "Organizers"
-    url: /organizers/
-  - title: "Papers"
-    url: /papers/
-  - title: "Challenges"
-    url: /challenges/
+  - title: "Research"
+    url: /research/
+  - title: "Team"
+    url: /team/
+  - title: "Publications"
+    url: /publications/
+  - title: "Code"
+    url: https://github.com/plant-ai-biophysics-lab
