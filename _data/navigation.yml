@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "About"
+    url: /
+  - title: "Program"
+    url: /program/
+  - title: "Organizers"
+    url: /organizers/
+  - title: "Papers"
+    url: /papers/
+  - title: "Challenges"
+    url: /challenges/
