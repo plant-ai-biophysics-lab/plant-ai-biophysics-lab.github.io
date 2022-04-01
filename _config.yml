@@ -104,7 +104,7 @@ analytics:
 author:
   # name             : "2022 DEGA-CV Workshop"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "We aim to innovate novel sensing, machine Learning, and computer vision across ag and food systems"
+  bio              : "We aim to develop AI-enabled sensing solutions for agriculture and food systems"
   location         : "Davis, CA"
   email            :
   links:
