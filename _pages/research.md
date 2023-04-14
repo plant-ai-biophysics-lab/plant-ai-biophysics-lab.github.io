@@ -6,4 +6,11 @@ title: "Research"
 
 Research that is focused on developing AI-enabled sensing solutions for agriculture and food systems.
 
-[![agkit](../assets/gallery/agkit-night-vineyard.jpg){: width="300" height="200"}](./agkit/)
+<figure>
+    <a href="./agkit/">
+        <img src="../assets/gallery/agkit-night-vineyard.jpg">
+    </a>
+    <figcaption>
+        AgKit
+    </figcaption>
+</figure>
