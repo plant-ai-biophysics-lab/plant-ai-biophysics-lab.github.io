@@ -1,3 +1,17 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+  
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 figure {
     position: relative;
     display: inline-block;
@@ -8,9 +22,9 @@ figure img {
     height: 200px;
 }
   
-figcaption {
+textoverlay {
     position: absolute;
-    bottom: 30%;
+    bottom: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
