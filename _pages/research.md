@@ -1,7 +1,7 @@
 ---
 layout: single
-permalink: /research/
-title: "Research"
+permalink: /projects/
+title: "Projects"
 ---
 
-More to come!
+Coming soon.

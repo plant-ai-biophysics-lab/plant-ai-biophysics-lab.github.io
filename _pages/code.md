@@ -4,4 +4,4 @@ permalink: /code/
 title: "Code"
 ---
 
-More to come!
+Coming soon.

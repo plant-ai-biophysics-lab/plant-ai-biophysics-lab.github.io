@@ -1,0 +1,28 @@
+{% assign m = include.member %}
+<div class="team-member" style="margin-bottom: 0.75rem;">
+  <div class="team-member__inner" style="display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: flex-start;">
+    {% if m.photo %}
+    <div class="team-member__photo" style="flex: 0 0 200px;">
+      {% assign photo_url = m.photo %}
+      {% unless m.photo contains 'http' %}
+        {% assign photo_url = m.photo | relative_url %}
+      {% endunless %}
+      <img src="{{ photo_url }}" alt="{{ m.name }}" width="200" height="200" style="max-width: 100%; height: auto; border-radius: 4px;">
+    </div>
+    {% endif %}
+    <div class="team-member__info" style="flex: 1; min-width: 0;">
+      <h3 class="team-member__name" style="margin: 0 0 0.25rem 0; font-weight: normal;">{{ m.name }}{% if m.role %} ({{ m.role }}){% endif %}</h3>
+      {% if m.interests and m.interests.size > 0 %}
+        <p class="team-member__interests" style="margin-bottom: 0.5rem;">
+          Research interests<br>
+          {% for i in m.interests %}
+            - {{ i }}<br>
+          {% endfor %}
+        </p>
+      {% endif %}
+      {% if m.bio and m.bio != "" %}
+        <p class="team-member__bio" style="text-align: justify;">{{ m.bio }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>

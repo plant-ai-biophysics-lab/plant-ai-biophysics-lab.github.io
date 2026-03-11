@@ -1,0 +1,31 @@
+{% comment %}
+  Renders one publication with optional podcast.
+  - podcast_url: direct URL to m4a (e.g. AWS S3, CDN, Internet Archive) → inline streaming player
+  - podcast_drive_id: Google Drive file ID → "Listen" link (opens Drive; use when file is large)
+{% endcomment %}
+{% assign p = include.pub %}
+<li class="publication-item" style="list-style: none; margin-bottom: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  {% if p.podcast_url %}
+    <span class="publication-podcast" style="flex-shrink: 0;">
+      <audio controls preload="metadata" style="height: 28px; width: 220px; vertical-align: middle;">
+        <source src="{{ p.podcast_url }}" type="audio/mp4">
+        <a href="{{ p.podcast_url }}" target="_blank" rel="noopener">Listen</a>
+      </audio>
+    </span>
+  {% elsif p.podcast_drive_id %}
+    {% assign drive_listen_url = "https://drive.google.com/file/d/" | append: p.podcast_drive_id | append: "/view" %}
+    <span class="publication-podcast" style="flex-shrink: 0;">
+      <a href="{{ drive_listen_url }}" target="_blank" rel="noopener" class="btn btn--small btn--primary" title="Listen to podcast (opens in Google Drive)">
+        <i class="fas fa-play" aria-hidden="true"></i> Listen
+      </a>
+    </span>
+  {% endif %}
+  <span class="publication-citation">
+    {% if p.url %}
+      <a href="{{ p.url }}" target="_blank" rel="noopener"><strong>{{ p.title }}</strong></a>
+    {% else %}
+      <strong>{{ p.title }}</strong>
+    {% endif %}
+    — {{ p.authors }} ({{ p.year }})
+  </span>
+</li>

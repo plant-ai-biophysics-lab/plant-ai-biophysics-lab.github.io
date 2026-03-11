@@ -1,0 +1,20 @@
+# Team members (flat list). Optional: photo, email, twitter, github, interests (array), bio.
+# Displayed alphabetically by name. Role shown in parentheses after name.
+
+members:
+  - name: Apoorva Jha
+    role: PhD Student
+  - name: Earl Ranario
+    role: PhD Student
+  - name: Hamid Kamangir
+    role: Postdoc
+  - name: Heesup Yun
+    role: PhD Student
+  - name: Lars Lundqvist
+    role: Undergrad
+  - name: Mason Earles
+    role: PI
+  - name: Riley Hibbard
+    role: MS Student
+  - name: Vishal Singh
+    role: PhD Student

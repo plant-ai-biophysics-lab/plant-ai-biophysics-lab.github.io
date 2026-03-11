@@ -1,0 +1,13 @@
+# Authors to fetch publications for. Add ORCIDs (with or without https) or OpenAlex author IDs.
+# OpenAlex author ID: find at https://openalex.org or use ORCID.
+# Example: orcid: "https://orcid.org/0000-0002-1234-5678" or openalex_id: "A2208157607"
+authors:
+  - openalex_id: "A5079120060"   # J. Mason Earles (UC Davis)
+  - openalex_id: "A5022634027"   # Mason Earles (UC Davis)
+  # - orcid: "https://orcid.org/0000-0002-XXXX-XXXX"
+
+# Optional: only include works from this year and the last N years (default: 10)
+max_years_back: 15
+
+# Optional: max works to fetch per author (default: 200). OpenAlex pages at 25 per request.
+per_author_limit: 200

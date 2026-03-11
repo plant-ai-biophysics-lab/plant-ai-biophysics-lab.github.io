@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "About"
+  - title: "Blog"
     url: /
-  - title: "Research"
-    url: /research/
+  # - title: "Projects"
+  #   url: /projects/
   - title: "Team"
     url: /team/
-  - title: "Publications"
+  - title: "Papers"
     url: /publications/
   - title: "Code"
     url: https://github.com/plant-ai-biophysics-lab
