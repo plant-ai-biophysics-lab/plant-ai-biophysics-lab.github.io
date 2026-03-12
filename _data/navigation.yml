@@ -1,11 +1,11 @@
-# main links
-main:
+# main links (empty: single-page site, nav in left sidebar)
+main: []
+
+# Left sidebar nav for single-page (anchor links)
+single_page_nav:
   - title: "Papers"
-    url: /
-  # - title: "Projects"
-  #   url: /projects/
+    url: /#papers
   - title: "Team"
-    url: /team/
+    url: /#team
   - title: "Code"
-    url: https://github.com/plant-ai-biophysics-lab
-    target: "_blank"
+    url: /#section-code

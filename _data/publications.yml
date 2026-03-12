@@ -1,5 +1,5 @@
 # Publications from OpenAlex: J. Mason Earles + Mason Earles (UC Davis).
-# Optional per entry: podcast_url (streaming) or podcast_drive_id (Google Drive).
+# Optional per entry: podcast_url, podcast_drive_id (Google Drive), github (repo URL).
 # Source: OpenAlex author ids A5079120060, A5022634027.
 
 - title: "Using Vision Language Foundation Models to Generate Plant Simulation Configurations via In-Context Learning"
@@ -12,11 +12,13 @@
   authors: Earl Ranario, Lars Lundqvist, Heesup Yun, Brian N. Bailey, J. Mason Earles
   year: 2025
   url: "https://doi.org/10.1109/cvprw67362.2025.00536"
+  github: "https://github.com/plant-ai-biophysics-lab/AGILE"
 
 - title: "AgRowStitch: A High-fidelity Image Stitching Pipeline for Ground-based Agricultural Images"
   authors: Uyehara, Isaac Kazuo, Yun, Heesup, Ranario, Earl, Earles, Mason
   year: 2025
   url: "https://doi.org/10.48550/arxiv.2503.21990"
+  github: "https://github.com/GEMINI-Breeding/AgRowStitch"
 
 - title: Are vision-language models ready to zero-shot replace supervised classification models in agriculture?
   authors: Ranario, Earl, Earles, Mason J.
@@ -32,6 +34,7 @@
   authors: Siddhartha Bhattacharya, Aarham Wasit, J Mason Earles, Nitin Nitin, Jiyoon Yi
   year: 2025
   url: "https://doi.org/10.3389/frai.2025.1632344"
+  github: "https://github.com/food-ai-engineering-lab/microcolony-domain-adaptation-frai"
 
 - title: Leaf hyperspectral reflectance detects pre‐visual stress to <i>Fusarium</i> wilt in strawberries
   authors: Jessie Au, Christopher Y. S. Wong, Dominique D. A. Pincot, Frank N. Martin, Rishav Ray, Mason Earles, Troy S. Magney
@@ -42,21 +45,37 @@
   authors: Andres Montes de Oca, Troy Magney, Stavros G. Vougioukas, Dario Racano, Alejandro Torrez-Orozco, Steven A. Fennimore, Frank N. Martin, Mason Earles
   year: 2025
   url: "https://doi.org/10.1016/j.compag.2025.110516"
+  github: "https://github.com/plant-ai-biophysics-lab/strawberry-yield-forecasting"
 
 - title: "iNatAg: Multi-Class Classification Models Enabled by a Large-Scale Benchmark Dataset with 4.7M Images of 2,959 Crop and Weed Species"
   authors: Naitik Jain, Amogh Joshi, Mason Earles
   year: 2025
   url: "https://doi.org/10.1109/cvprw67362.2025.00547"
+  github: "https://github.com/plant-ai-biophysics-lab/AgML-iNat-Species-Classifier"
 
-- title: "iNatAg: Multi-Class Classification Models Enabled by a Large-Scale Benchmark Dataset with 4.7M Images of 2,959 Crop and Weed Species"
-  authors: Jain, Naitik, Joshi, Amogh, Earles, Mason
+- title: "California Crop Yield Benchmark: Combining Satellite Image, Climate, Evapotranspiration, and Soil Data Layers for County-Level Yield Forecasting of Over 70 Crops"
+  authors: Hamid Kamangir, Mona Hajiesmaeeli, J. Mason Earles
   year: 2025
-  url: "https://doi.org/10.48550/arxiv.2503.20068"
+  url: "https://arxiv.org/abs/2506.10228"
+  github: "https://github.com/plant-ai-biophysics-lab/california-crop-yield-benchmark"
 
 - title: "DAVIS-Ag: A Synthetic Plant Dataset for Prototyping Domain-Inspired Active Vision in Agricultural Robots"
   authors: Taeyeong Choi, Dario Guevara, Zifei Cheng, Grisha Bandodkar, Chonghan Wang, Brian N. Bailey, Mason Earles, Xin Liu
   year: 2024
   url: "https://doi.org/10.1109/case59546.2024.10711368"
+  github: "https://github.com/ctyeong/DAVIS-Ag"
+
+- title: "Large-scale spatio-temporal yield estimation via deep learning using satellite and management data fusion in vineyards"
+  authors: Hamid Kamangir, Brent S. Sams, Nick Dokoozlian, Luis Sanchez, J. Mason Earles
+  year: 2024
+  url: "https://doi.org/10.1016/j.compag.2024.108439"
+  github: "https://github.com/plant-ai-biophysics-lab/rs-spatiotemporal-vineyard-yield-forecasting"
+
+- title: "Predicting Crop Yield Lows Through Highs via Binned Deep Imbalanced Regression"
+  authors: Hamid Kamangir, J. Mason Earles
+  year: 2024
+  url: "https://github.com/plant-ai-biophysics-lab/imbalance_deep_regression_yield_forecasting"
+  github: "https://github.com/plant-ai-biophysics-lab/imbalance_deep_regression_yield_forecasting"
 
 - title: Deep learning enabled rapid classification of yeast species in food by imaging of yeast microcolonies
   authors: Hyeon Woo Park, J. Mason Earles, Nitin Nitin
@@ -93,30 +112,10 @@
   year: 2023
   url: "https://doi.org/10.22541/essoar.169772153.35281511/v1"
 
-- title: Automated parameterization of stomatal conductance models from thermal imagery by leveraging synthetic images generated from Helios 3D biophysical model simulations
-  authors: Ismael Mayanja, Heesup Yun, Mason Earles, Brian N. Bailey
-  year: 2023
-  url: "https://doi.org/10.22541/essoar.169705163.37068913/v1"
-
-- title: Automated parameterization of stomatal conductance models from thermal imagery by leveraging synthetic images generated from Helios 3D biophysical model simulations
-  authors: Ismael Mayanja, Heesup Yun, Mason Earles, Brian N. Bailey
-  year: 2023
-  url: "https://doi.org/10.22541/essoar.169699738.86494632/v1"
-
 - title: Biometeorological Dataset for 'Novel algorithms for high resolution prediction of canopy evapotranspiration in grapevine'
   authors: Jenkins, Matthew, Mannsfeld, Autumn, Nikzad, Shayla, Lambert, Jean-Jacques, Miller, Konrad, Burns, Mark, Earles, J. Mason, Block, David E.
   year: 2023
   url: "https://doi.org/10.5281/zenodo.7983157"
-
-- title: Biometeorological Dataset for 'Novel algorithms for high resolution prediction of canopy evapotranspiration in grapevine'
-  authors: Jenkins, Matthew, Mannsfeld, Autumn, Nikzad, Shayla, Lambert, Jean-Jacques, Miller, Konrad, Burns, Mark, Earles, J. Mason, Block, David E.
-  year: 2023
-  url: "https://doi.org/10.5281/zenodo.7983156"
-
-- title: "DAVIS-Ag: A Synthetic Plant Dataset for Prototyping Domain-Inspired Active Vision in Agricultural Robots"
-  authors: Choi, Taeyeong, Guevara, Dario, Cheng, Zifei, Bandodkar, Grisha, Wang, Chonghan, Bailey, Brian N., Earles, Mason, Liu, Xin
-  year: 2023
-  url: "https://doi.org/10.48550/arxiv.2303.05764"
 
 - title: Erratum for Ma et al., “Accelerating the Detection of Bacteria in Food Using Artificial Intelligence and Optical Imaging”
   authors: Luyao Ma, Jiyoon Yi, Nicharee Wisuthiphaet, Mason Earles, Nitin Nitin
@@ -147,6 +146,7 @@
   authors: Joshi, Amogh, Guevara, Dario, Earles, Mason
   year: 2022
   url: "https://doi.org/10.48550/arxiv.2208.02707"
+  github: "https://github.com/Project-AgML/AgML"
 
 - title: Structural and functional leaf diversity lead to variability in photosynthetic capacity across a range of <i>Juglans regia</i> genotypes
   authors: Mina Momayyezi, Devin A. Rippner, Fiona V. Duong, Pranav V. Raja, Patrick J. Brown, Daniel A. Kluepfel, J. Mason Earles, Elisabeth J. Forrestel, Matthew E. Gilbert, Andrew J. McElrone
@@ -157,11 +157,7 @@
   authors: Zhenghao Fei, Alex Olenskyj, Brian N. Bailey, Mason Earles
   year: 2021
   url: "https://doi.org/10.1109/iccvw54120.2021.00147"
-
-- title: Enlisting 3D Crop Models and GANs for More Data Efficient and Generalizable Fruit Detection
-  authors: Fei, Zhenghao, Olenskyj, Alex, Bailey, Brian N., Earles, Mason
-  year: 2021
-  url: "https://doi.org/10.48550/arxiv.2108.13344"
+  github: "https://github.com/plant-ai-biophysics-lab/CropGAN"
 
 - title: Improving Walnut (J. regia) Kernel Color Analyses
   authors: Steven Lee, Mason Earles, Sean McDowell, Patrick Brown
@@ -187,11 +183,6 @@
   authors: Raja, Pranav, Olenskyj, Alex, Kamangir, Hamid, Earles, Mason
   year: 2021
   url: "https://doi.org/10.48550/arxiv.2112.03205"
-
-- title: Structural and functional leaf diversity lead to variability in photosynthetic capacity across a range of Juglans regia genotypes
-  authors: Mina Momayyezi, Devin Rippner, Fiona Duong, Pranav Raja, Pat Brown, Dan Kluepfel, Jeffrey Earles, Elisabeth Forrestel, Matthew Gilbert, Andrew McElrone
-  year: 2021
-  url: "https://doi.org/10.22541/au.163389186.60218937/v1"
 
 - title: Supplementary Tables from Maximum CO<sub>2</sub> diffusion inside leaves is limited by the scaling of cell size and genome size
   authors: Théroux-Rancourt, Guillaume, Roddy, Adam B., J. Mason Earles, Gilbert, Matthew E., Zwieniecki, Maciej A., C. Kevin Boyce, Tholen, Danny, McElrone, Andrew J., Simonin, Kevin A., Brodersen, Craig R.

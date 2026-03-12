@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt
 
 # Site Settings
 locale                   : "en-US"
-title                    : "UC Davis Plant AI Biophysics Lab"
+title                    : "Plant AI Biophysics Lab @ UC Davis"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : # empty; tagline appears in left sidebar below nav
 # name                     : "Your Name"
-description              : "UC Davis Plant AI Biophysics Lab"
+description              : "Plant AI Biophysics Lab @ UC Davis"
 url                      : "https://plant-ai-biophysics-lab.github.io"
 baseurl                  : ""
 repository               : "plant-ai-biophysics-lab/plant-ai-biophysics-lab.github.io"
@@ -104,10 +104,11 @@ analytics:
 # Replace with your lab or PI's Scholar profile URL, e.g. https://scholar.google.com/citations?user=XXXXX
 scholar_profile_url    :
 
-# Site Author
+# Site Author (sidebar: name + bio = tagline, then nav)
 author:
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "We aim to develop AI-enabled sensing solutions for agriculture and food systems"
+  name            : "Plant AI Biophysics Lab @ UC Davis"
+  avatar          : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio             : "We aim to develop AI-enabled solutions for agriculture and food systems"
   location         : "Davis, CA"
   email            :
   links:

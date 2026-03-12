@@ -53,12 +53,63 @@ $(document).ready(function() {
     }, 400);
   });
 
-  // Smooth scrolling
-  var scroll = new SmoothScroll('a[href*="#"]', {
+  // Smooth scrolling: exclude .nav__link (sidebar section links); those use the handler below
+  var scroll = new SmoothScroll('a[href*="#"]:not(.nav__link)', {
+    header: '.masthead',
     offset: 20,
     speed: 400,
     speedAsDuration: true,
     durationMax: 500
+  });
+
+  // Sidebar section links: use getBoundingClientRect so scroll target is correct regardless of current scroll (fixes wrong-spot when clicking second tab)
+  function setSidebarActiveFromScroll() {
+    var sectionIds = ['papers', 'team', 'section-code'];
+    var threshold = 120;
+    var currentId = 'papers';
+    var nearBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 30;
+    if (nearBottom) {
+      currentId = 'section-code';
+    } else {
+      for (var i = 0; i < sectionIds.length; i++) {
+        var el = document.getElementById(sectionIds[i]);
+        if (el) {
+          var top = el.getBoundingClientRect().top;
+          if (top <= threshold) currentId = sectionIds[i];
+        }
+      }
+    }
+    $('.sidebar .nav__list .nav__link').each(function() {
+      var href = (this.getAttribute('href') || '').split('#').pop();
+      var linkId = href && href.length ? href : null;
+      if (linkId && sectionIds.indexOf(linkId) !== -1) {
+        $(this).toggleClass('active', linkId === currentId);
+      }
+    });
+  }
+  setSidebarActiveFromScroll();
+  function onScroll() {
+    window.requestAnimationFrame(setSidebarActiveFromScroll);
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('load', setSidebarActiveFromScroll);
+  window.addEventListener('resize', onScroll);
+  setInterval(setSidebarActiveFromScroll, 400);
+  $('.sidebar .nav__list .nav__link').on('click', function(e) {
+    var href = $(this).attr('href');
+    if (!href || href === '#') return;
+    var id = href.split('#')[1];
+    var el = document.getElementById(id);
+    if (!el) return;
+    e.preventDefault();
+    var masthead = document.querySelector('.masthead');
+    var headerHeight = masthead ? masthead.offsetHeight : 0;
+    var offset = 20;
+    var top = el.getBoundingClientRect().top + window.pageYOffset;
+    var target = Math.max(0, top - headerHeight - offset);
+    window.scrollTo({ top: target, behavior: 'smooth' });
+    if (history.replaceState) history.replaceState(null, '', href);
+    setSidebarActiveFromScroll();
   });
 
   // Gumshoe scroll spy init

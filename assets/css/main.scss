@@ -6,3 +6,193 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Single-page smooth scroll for sidebar anchor links */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px; /* reserve space so anchor targets sit below sticky masthead */
+}
+
+/* Keep section headings visible below sticky masthead when scrolling to anchor */
+#papers,
+#team,
+#section-code {
+  scroll-margin-top: 120px;
+}
+
+/* Remove space above first section (Papers) on single-page home */
+.page--no-top-space .page__inner-wrap {
+  margin-top: 0;
+}
+.page--no-top-space header {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+.page--no-top-space .page__content {
+  margin-top: 0;
+  padding-top: 0;
+}
+.page--no-top-space .page__content h2:first-child {
+  margin-top: 0;
+}
+
+/* Code section: no list bullets */
+#section-code + ul {
+  list-style: none;
+  padding-left: 0;
+}
+#section-code + ul li {
+  list-style: none;
+}
+
+/* Keep masthead (site title + subtitle) visible when scrolling */
+.masthead {
+  position: sticky;
+  top: 0;
+  background: $background-color;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+/* Keep left sidebar (Papers / Team / Code nav) fixed when scrolling */
+.sidebar.sticky {
+  position: sticky;
+  top: 4em; /* below masthead */
+  align-self: flex-start;
+}
+
+/* Sidebar: bold current section, no theme’s active padding/margin */
+.sidebar .nav__list .nav__items li {
+  margin: 0;
+  padding: 0;
+}
+.sidebar .nav__list .nav__sub-title {
+  border-bottom: none;
+  font-weight: normal;
+  margin: 0.2rem 0;
+  padding: 0.15rem 0;
+}
+
+.sidebar .nav__list .nav__link.active {
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+  .nav__sub-title {
+    font-weight: bold;
+  }
+}
+
+/* Tagline below nav in sidebar */
+.sidebar .nav__list + p,
+.sidebar p:last-child {
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-size: $type-size-6;
+  line-height: 1.4;
+}
+
+/* Slightly smaller text in main content */
+.page__content {
+  font-size: 0.8125em;
+}
+
+/* Team section: same text size as Papers/Code (theme’s h3 is larger by default) */
+.page__content .team-member,
+.page__content .team-member .team-member__name,
+.page__content .team-member p {
+  font-size: 1em;
+}
+
+/* Team section: 2-column grid to use horizontal space and reduce white space */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem 2rem;
+  margin-bottom: 0;
+  .team-member {
+    margin-bottom: 0;
+  }
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* AI Podcast chip: expand/replace in place (no drop-down), white chip with black outline */
+.publication-podcast-details {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  .publication-podcast-player {
+    margin-top: 0;
+  }
+  /* When open: collapse control is just the dash (no chip outline) */
+  &[open] .publication-podcast-chip {
+    background: transparent;
+    border: none;
+    padding: 0.25rem 0.35rem;
+    border-radius: 0;
+  }
+  &[open] .publication-podcast-chip .podcast-chip-icon,
+  &[open] .publication-podcast-chip .chip-label {
+    display: none;
+  }
+  &[open] .publication-podcast-chip::after {
+    content: "−";
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1;
+  }
+}
+.publication-podcast-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.8em;
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 999px;
+  cursor: pointer;
+  list-style: none;
+  flex-shrink: 0;
+  min-height: 28px;
+  box-sizing: border-box;
+  &::-webkit-details-marker,
+  &::marker {
+    display: none;
+  }
+  .podcast-chip-icon {
+    flex-shrink: 0;
+    vertical-align: middle;
+  }
+}
+.publication-podcast-player {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  /* Player: solid white background, black outline */
+  background: #ffffff !important;
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 2px;
+  .podcast-audio {
+    background: #ffffff !important;
+    border: none;
+    /* Force native audio control panel to white (Chrome/Edge/Safari) */
+    &::-webkit-media-controls-panel {
+      background-color: #ffffff !important;
+    }
+    &::-webkit-media-controls-enclosure {
+      background-color: #ffffff !important;
+    }
+    &::-webkit-media-controls-current-time-display,
+    &::-webkit-media-controls-time-remaining-display {
+      background: transparent;
+    }
+  }
+}
