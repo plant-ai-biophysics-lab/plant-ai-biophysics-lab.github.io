@@ -1,6 +1,6 @@
 ---
 layout: single
-permalink: /publications/
+permalink: /
 title: "Papers"
 classes: wide
 ---
