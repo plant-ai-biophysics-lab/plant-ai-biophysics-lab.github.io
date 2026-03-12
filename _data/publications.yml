@@ -22,8 +22,9 @@
 
 - title: Are vision-language models ready to zero-shot replace supervised classification models in agriculture?
   authors: Ranario, Earl, Earles, Mason J.
-  year: 2025
-  url: "https://doi.org/10.48550/arxiv.2512.15977"
+  year: 2026
+  url: "https://arxiv.org/abs/2512.15977"
+  podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/Why_Generalist_AI_Fails_at_Crop_Diagnosis.m4a"
 
 - title: Comparison of Mask-R-CNN and Thresholding-Based Segmentation for High-Throughput Phenotyping of Walnut Kernel Color
   authors: Steven H. Lee, Sean McDowell, Charles Leslie, Kristina McCreery, Mason Earles, Patrick J. Brown
