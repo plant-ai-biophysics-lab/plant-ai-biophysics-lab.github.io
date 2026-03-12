@@ -24,6 +24,28 @@
           <i class="fas fa-search"></i>
         </button>
         {% endif %}
+        {% if page.sidebar %}
+        {% assign nav_key = nil %}
+        {% for s in page.sidebar %}
+          {% if s.nav %}{% assign nav_key = s.nav %}{% break %}{% endif %}
+        {% endfor %}
+        {% if nav_key %}
+        {% assign section_nav = site.data.navigation[nav_key] %}
+        <div class="section-nav">
+          <label for="ac-toc" class="section-nav__toggle" aria-label="{{ site.data.ui-text[site.locale].menu_label | default: 'Menu' }}">
+            <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Menu" }}</span>
+            <span class="navicon"></span>
+          </label>
+          <div class="section-nav__dropdown" id="section-nav-dropdown">
+            <ul class="section-nav__dropdown-list">
+              {% for item in section_nav %}
+              <li><a class="nav__link section-nav__dropdown-link" href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        {% endif %}
+        {% endif %}
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>

@@ -79,7 +79,7 @@ $(document).ready(function() {
         }
       }
     }
-    $('.sidebar .nav__list .nav__link').each(function() {
+    $('.sidebar .nav__list .nav__link, .section-nav__dropdown-link').each(function() {
       var href = (this.getAttribute('href') || '').split('#').pop();
       var linkId = href && href.length ? href : null;
       if (linkId && sectionIds.indexOf(linkId) !== -1) {
@@ -95,7 +95,7 @@ $(document).ready(function() {
   window.addEventListener('load', setSidebarActiveFromScroll);
   window.addEventListener('resize', onScroll);
   setInterval(setSidebarActiveFromScroll, 400);
-  $('.sidebar .nav__list .nav__link').on('click', function(e) {
+  $('.sidebar .nav__list .nav__link, .section-nav__dropdown-link').on('click', function(e) {
     var href = $(this).attr('href');
     if (!href || href === '#') return;
     var id = href.split('#')[1];
@@ -110,7 +110,19 @@ $(document).ready(function() {
     window.scrollTo({ top: target, behavior: 'smooth' });
     if (history.replaceState) history.replaceState(null, '', href);
     setSidebarActiveFromScroll();
+    var acToc = document.getElementById('ac-toc');
+    if (acToc) acToc.checked = false;
   });
+
+  // Sync body class for section nav (masthead hamburger) open state so CSS can show X icon
+  var acToc = document.getElementById('ac-toc');
+  if (acToc) {
+    function syncSectionNavOpen() {
+      document.body.classList.toggle('section-nav-open', acToc.checked);
+    }
+    syncSectionNavOpen();
+    acToc.addEventListener('change', syncSectionNavOpen);
+  }
 
   // Gumshoe scroll spy init
   if($("nav.toc").length > 0) {

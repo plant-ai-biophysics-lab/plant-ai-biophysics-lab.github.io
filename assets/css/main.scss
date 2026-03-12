@@ -61,7 +61,121 @@ html {
   align-self: flex-start;
 }
 
+/* Mobile: section nav uses dropdown from masthead; hide sidebar (including tagline) */
+@media (max-width: 1023px) {
+  .sidebar {
+    display: none;
+  }
+  /* Masthead: show section nav toggle (hamburger) when page has sidebar */
+  .section-nav__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    padding: 0.5rem;
+    min-width: 44px;
+    min-height: 44px;
+    box-sizing: border-box;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    color: $masthead-link-color;
+    -ms-flex-item-align: center;
+    align-self: center;
+    .navicon {
+      flex-shrink: 0;
+    }
+  }
+  .section-nav__toggle:hover {
+    color: $masthead-link-color-hover;
+  }
+  /* Open state: hamburger becomes X (checkbox is in sidebar, so we use body class set by JS) */
+  body.section-nav-open .section-nav__toggle .navicon {
+    background: transparent;
+    &:before,
+    &:after {
+      transform-origin: 50% 50%;
+      top: 0;
+    }
+    &:before {
+      transform: rotate3d(0, 0, 1, 45deg);
+    }
+    &:after {
+      transform: rotate3d(0, 0, 1, -45deg);
+    }
+  }
+  /* Section nav: dropdown container */
+  .section-nav {
+    position: relative;
+    margin-left: auto;
+  }
+  .section-nav__dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    margin-top: 0;
+    padding: 0.5rem 0;
+    background: $background-color;
+    border-bottom: 1px solid $border-color;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 20;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  body.section-nav-open .section-nav__dropdown {
+    display: block;
+  }
+  .section-nav__dropdown-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .section-nav__dropdown-list li {
+    margin: 0;
+    padding: 0;
+  }
+  .section-nav__dropdown-link {
+    display: block;
+    padding: 0.6rem 1rem;
+    color: $text-color;
+    text-decoration: none;
+    font-weight: normal;
+    border: none;
+  }
+  .section-nav__dropdown-link:hover {
+    background: mix($primary-color, $background-color, 10%);
+    color: $link-color-hover;
+  }
+  .section-nav__dropdown-link.active {
+    font-weight: bold;
+    background: mix($primary-color, $background-color, 15%);
+  }
+  /* Hide sidebar nav list and tagline on mobile; dropdown is the only nav */
+  .sidebar .nav__list label[for="ac-toc"] {
+    display: none !important;
+  }
+  .sidebar .nav__list .nav__items {
+    display: none !important;
+  }
+  .sidebar .nav__list + p {
+    display: none !important;
+  }
+}
+
 /* Sidebar: bold current section, no theme’s active padding/margin */
+@media (min-width: 1024px) {
+  .section-nav {
+    display: none !important;
+  }
+  .sidebar .nav__list input#ac-toc,
+  .sidebar .nav__list label[for="ac-toc"] {
+    display: none !important;
+  }
+}
+
 .sidebar .nav__list .nav__items li {
   margin: 0;
   padding: 0;
