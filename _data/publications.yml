@@ -7,6 +7,7 @@
   year: 2026
   url: "https://arxiv.org/abs/2603.08930"
   podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/AI_turns_drone_photos_into_digital_twins.m4a"
+  website: "https://heesup.github.io/projects/vlm-plant-sim/"
 
 - title: "AGILE: A Diffusion-Based Attention-Guided Image and Label Translation for Efficient Cross-Domain Plant Trait Identification"
   authors: Earl Ranario, Lars Lundqvist, Heesup Yun, Brian N. Bailey, J. Mason Earles
@@ -26,6 +27,7 @@
   year: 2026
   url: "https://arxiv.org/abs/2512.15977"
   podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/Why_Generalist_AI_Fails_at_Crop_Diagnosis.m4a"
+  website: "https://eranario.github.io/publications/VLMs-Agriculture/"
 
 - title: Comparison of Mask-R-CNN and Thresholding-Based Segmentation for High-Throughput Phenotyping of Walnut Kernel Color
   authors: Steven H. Lee, Sean McDowell, Charles Leslie, Kristina McCreery, Mason Earles, Patrick J. Brown
