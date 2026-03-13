@@ -13,6 +13,7 @@
   year: 2025
   url: "https://doi.org/10.1109/cvprw67362.2025.00536"
   github: "https://github.com/plant-ai-biophysics-lab/AGILE"
+  website: "https://eranario.github.io/publications/AGILE/"
 
 - title: "AgRowStitch: A High-fidelity Image Stitching Pipeline for Ground-based Agricultural Images"
   authors: Uyehara, Isaac Kazuo, Yun, Heesup, Ranario, Earl, Earles, Mason

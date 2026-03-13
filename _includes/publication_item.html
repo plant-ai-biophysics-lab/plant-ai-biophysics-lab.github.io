@@ -14,6 +14,9 @@
     {% if p.github %}
       <a href="{{ p.github }}" target="_blank" rel="noopener" title="Code on GitHub" style="display: inline-flex; align-items: center; gap: 0.3rem; margin-left: 0.5rem; padding: 0.15rem 0.5rem; font-size: 0.8em; color: #000; background: #e8e8e8; border-radius: 999px; text-decoration: none;"><i class="fab fa-github" aria-hidden="true"></i> Code</a>
     {% endif %}
+    {% if p.website %}
+      <a href="{{ p.website }}" target="_blank" rel="noopener" title="Project Website" style="display: inline-flex; align-items: center; gap: 0.3rem; margin-left: 0.5rem; padding: 0.15rem 0.5rem; font-size: 0.8em; color: #000; background: #e8e8e8; border-radius: 999px; text-decoration: none;"><i class="fas fa-globe" aria-hidden="true"></i> Website</a>
+    {% endif %}
     {% if p.podcast_url %}
     <details class="publication-podcast-details">
       <summary class="publication-podcast-chip">
