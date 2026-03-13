@@ -1,8 +1,11 @@
 # Authors to fetch publications for. Add ORCIDs (with or without https) or OpenAlex author IDs.
 # OpenAlex author ID: find at https://openalex.org or use ORCID.
+# For Google Scholar (optional): add google_scholar_author_id (from scholar.google.com/citations?user=XXX)
+#   or name_for_scholar (search string, e.g. "Mason Earles UC Davis").
 # Example: orcid: "https://orcid.org/0000-0002-1234-5678" or openalex_id: "A2208157607"
 authors:
   - openalex_id: "A5079120060"   # J. Mason Earles (UC Davis)
+    google_scholar_author_id: "PjrSfXgAAAAJ"
   - openalex_id: "A5022634027"   # Mason Earles (UC Davis)
   # - orcid: "https://orcid.org/0000-0002-XXXX-XXXX"
 

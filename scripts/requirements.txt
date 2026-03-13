@@ -1,0 +1,5 @@
+# For scripts/fetch_publications.py
+requests>=2.28.0
+PyYAML>=6.0
+# Optional: for Google Scholar (may require rate limiting / proxy in strict environments)
+scholarly>=1.7.0

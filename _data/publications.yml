@@ -29,6 +29,11 @@
   podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/Why_Generalist_AI_Fails_at_Crop_Diagnosis.m4a"
   website: "https://eranario.github.io/publications/VLMs-Agriculture/"
 
+- title: "CMAViT: Integrating Climate, Management, and Remote Sensing Data for Crop Yield Prediction With Multimodel Vision Transformers"
+  authors: ""
+  year: 2026
+  url: ""
+
 - title: Comparison of Mask-R-CNN and Thresholding-Based Segmentation for High-Throughput Phenotyping of Walnut Kernel Color
   authors: Steven H. Lee, Sean McDowell, Charles Leslie, Kristina McCreery, Mason Earles, Patrick J. Brown
   year: 2025
@@ -50,18 +55,36 @@
   year: 2025
   url: "https://doi.org/10.1016/j.compag.2025.110516"
   github: "https://github.com/plant-ai-biophysics-lab/strawberry-yield-forecasting"
+  podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/AI_and_Biology_Predict_Strawberry_Harvests.m4a"
 
 - title: "iNatAg: Multi-Class Classification Models Enabled by a Large-Scale Benchmark Dataset with 4.7M Images of 2,959 Crop and Weed Species"
   authors: Naitik Jain, Amogh Joshi, Mason Earles
   year: 2025
   url: "https://doi.org/10.1109/cvprw67362.2025.00547"
   github: "https://github.com/plant-ai-biophysics-lab/AgML-iNat-Species-Classifier"
+  podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/Training_Farm_AI_With_Smartphone_Photos.m4a"
 
 - title: "California Crop Yield Benchmark: Combining Satellite Image, Climate, Evapotranspiration, and Soil Data Layers for County-Level Yield Forecasting of Over 70 Crops"
   authors: Hamid Kamangir, Mona Hajiesmaeeli, J. Mason Earles
   year: 2025
   url: "https://arxiv.org/abs/2506.10228"
   github: "https://github.com/plant-ai-biophysics-lab/california-crop-yield-benchmark"
+  podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/AI_predicts_seventy_California_crop_yields.m4a"
+
+- title: "Integration of crop modeling and sensing into molecular breeding for nutritional quality and stress tolerance"
+  authors: ""
+  year: 2025
+  url: ""
+
+- title: "Enabling Plant Phenotyping in Weedy Environments using Multi-Modal Imagery via Synthetic and Generated Training Data"
+  authors: ""
+  year: 2025
+  url: ""
+
+- title: "Evapotranspiration Forecasting for Weather-Driven Agricultural Water Management by Harnessing Deep Learning"
+  authors: ""
+  year: 2025
+  url: ""
 
 - title: "DAVIS-Ag: A Synthetic Plant Dataset for Prototyping Domain-Inspired Active Vision in Agricultural Robots"
   authors: Taeyeong Choi, Dario Guevara, Zifei Cheng, Grisha Bandodkar, Chonghan Wang, Brian N. Bailey, Mason Earles, Xin Liu
@@ -101,6 +124,16 @@
   year: 2024
   url: "https://doi.org/10.1002/aaai.12164"
 
+- title: "VisTA-SR: improving the accuracy and resolution of low-cost thermal imaging cameras for agriculture"
+  authors: ""
+  year: 2024
+  url: ""
+
+- title: "Forecasting Satellite-based Actual Evapotranspiration using Deep Learning in California Cropping Systems"
+  authors: ""
+  year: 2024
+  url: ""
+
 - title: "AI-enabled biosensing for rapid pathogen detection: From liquid food to agricultural water"
   authors: Jiyoon Yi, Nicharee Wisuthiphaet, Pranav Raja, Nitin Nitin, J. Mason Earles
   year: 2023
@@ -131,6 +164,11 @@
   year: 2023
   url: "https://doi.org/10.20870/oeno-one.2023.57.3.7251"
 
+- title: "Site-Specific Soil Pest Management in Strawberry and Vegetable Cropping Systems Using Crop Rotation and a Needs-Based Variable Rate Fumigation Strategy"
+  authors: ""
+  year: 2023
+  url: ""
+
 - title: A workflow for segmenting soil and plant X-ray CT images with deep learning in Googles Colaboratory
   authors: Rippner, Devin A., Raja, Pranav, Earles, J. Mason, Buchko, Alexander, Momayyezi, Mina, Duong, Fiona, Parkinson, Dilworth, Forrestel, Elizabeth, Shackel, Ken, Neyhart, Jeffrey, McElrone, Andrew J.
   year: 2022
@@ -156,6 +194,21 @@
   authors: Mina Momayyezi, Devin A. Rippner, Fiona V. Duong, Pranav V. Raja, Patrick J. Brown, Daniel A. Kluepfel, J. Mason Earles, Elisabeth J. Forrestel, Matthew E. Gilbert, Andrew J. McElrone
   year: 2022
   url: "https://doi.org/10.1111/pce.14370"
+
+- title: "End-to-end deep learning for directly estimating grape yield from ground-based imagery"
+  authors: ""
+  year: 2022
+  url: ""
+
+- title: "End-to-end prediction of uniaxial compression profiles of apples during in vitro digestion using time-series micro-computed tomography and deep learning"
+  authors: ""
+  year: 2022
+  url: ""
+
+- title: "Leveraging Artificial Intelligence in the Improvement of Yield and Quality in Nutritional Security Crops"
+  authors: ""
+  year: 2022
+  url: ""
 
 - title: Enlisting 3D Crop Models and GANs for More Data Efficient and Generalizable Fruit Detection
   authors: Zhenghao Fei, Alex Olenskyj, Brian N. Bailey, Mason Earles
@@ -202,6 +255,11 @@
   authors: Santiago Trueba, Guillaume Théroux‐Rancourt, J. Mason Earles, Thomas N. Buckley, David Love, Daniel M. Johnson, Craig Brodersen
   year: 2021
   url: "https://doi.org/10.1111/nph.17772"
+
+- title: "Site-specific soil pest management in strawberry & vegetable cropping systems"
+  authors: ""
+  year: 2021
+  url: ""
 
 - title: Digitally deconstructing leaves in 3D using X‐ray microcomputed tomography and machine learning
   authors: Guillaume Théroux‐Rancourt, Matthew R. Jenkins, Craig R. Brodersen, Andrew McElrone, Elisabeth J. Forrestel, J. Mason Earles
@@ -288,6 +346,11 @@
   year: 2018
   url: "https://doi.org/10.1111/pce.13327"
 
+- title: "In vivo quantification of plant starch reserves at micrometer resolution using X‑ray microCT imaging and machine learning"
+  authors: ""
+  year: 2018
+  url: ""
+
 - title: Angiosperms evolved a higher mesophyll surface area per volume to maximize exchange surface under a low CO2 world
   authors: Guillaume Théroux‐Rancourt, J. Mason Earles, Matthew E. Gilbert, Maciej A. Zwieniecki, C. Kevin Boyce, Andrew J. McElrone, Craig R. Brodersen
   year: 2017
@@ -352,6 +415,11 @@
   authors: J. Mason Earles, Sonia Yeh, Kenneth E. Skog
   year: 2012
   url: "https://doi.org/10.1038/nclimate1535"
+
+- title: "Integrated economic equilibrium and life cycle assessment modeling for policy‐based consequential LCA"
+  authors: ""
+  year: 2013
+  url: ""
 
 - title: "Consequential life cycle assessment: a review"
   authors: J. Mason Earles, Anthony Halog

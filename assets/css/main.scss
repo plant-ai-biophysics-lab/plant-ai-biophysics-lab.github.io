@@ -291,13 +291,15 @@ html {
 }
 .publication-podcast-player {
   display: inline-flex;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 6px;
   min-height: 28px;
   /* Player: solid white background, black outline */
   background: #ffffff !important;
   border: 1px solid #000;
   border-radius: 6px;
-  padding: 2px;
+  padding: 2px 6px;
   .podcast-audio {
     background: #ffffff !important;
     border: none;
@@ -312,5 +314,58 @@ html {
     &::-webkit-media-controls-time-remaining-display {
       background: transparent;
     }
+  }
+  /* Info icon: click to show NotebookLM disclaimer (positioned above, overlays content) */
+  .podcast-disclaimer-details {
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+    position: relative;
+  }
+  .podcast-disclaimer-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    margin: 0;
+    font-size: 0.6rem;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Georgia, serif;
+    color: #000;
+    background: transparent;
+    border: 1px solid #666;
+    border-radius: 50%;
+    cursor: pointer;
+    text-align: center;
+    line-height: 1;
+    list-style: none;
+    user-select: none;
+    &::-webkit-details-marker,
+    &::marker {
+      display: none;
+    }
+    &:hover {
+      background: #f0f0f0;
+    }
+  }
+  .podcast-disclaimer-text {
+    position: absolute;
+    bottom: calc(100% + 4px);
+    left: 0;
+    z-index: 100;
+    margin: 0;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.65rem;
+    line-height: 1.25;
+    color: #444;
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    min-width: 220px;
+    max-width: 280px;
   }
 }

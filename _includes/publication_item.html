@@ -28,6 +28,10 @@
           <source src="{{ p.podcast_url }}" type="audio/mp4">
           <a href="{{ p.podcast_url }}" target="_blank" rel="noopener">Listen</a>
         </audio>
+        <details class="podcast-disclaimer-details">
+          <summary class="podcast-disclaimer-icon" aria-label="AI podcast disclaimer"><span aria-hidden="true">i</span></summary>
+          <p class="podcast-disclaimer-text">This podcast was AI-generated with Google NotebookLM and may contain errors or omissions.</p>
+        </details>
       </div>
     </details>
     {% elsif p.podcast_drive_id %}
@@ -41,6 +45,10 @@
         <a href="{{ drive_listen_url }}" target="_blank" rel="noopener" class="btn btn--small btn--primary" title="Listen to podcast (opens in Google Drive)">
           <i class="fas fa-play" aria-hidden="true"></i> Listen
         </a>
+        <details class="podcast-disclaimer-details">
+          <summary class="podcast-disclaimer-icon" aria-label="AI podcast disclaimer"><span aria-hidden="true">i</span></summary>
+          <p class="podcast-disclaimer-text">This podcast was AI-generated with Google NotebookLM and may contain errors or omissions.</p>
+        </details>
       </div>
     </details>
     {% endif %}
