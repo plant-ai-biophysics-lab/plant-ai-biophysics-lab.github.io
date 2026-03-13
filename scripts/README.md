@@ -47,3 +47,13 @@ The script prints:
 - (With `--scholar`) Papers that appear in Google Scholar but not in OpenAlex, for you to add manually if needed.
 
 Add any missing entries by editing `_data/publications.yml` (you can copy the format from existing entries and add optional `podcast_url`, `github`, etc.).
+
+## Look up URLs for papers with empty url
+
+Use `scripts/lookup_paper_urls.py` to find URLs (DOI, arXiv, etc.) for publications that have `url: ""`:
+
+```bash
+python scripts/lookup_paper_urls.py
+```
+
+This queries **OpenAlex** by title and prints suggested URLs. Run with `--apply` to write them into `_data/publications.yml` (a `.yml.bak` backup is created first). Papers not found in OpenAlex (e.g. very recent or niche) may need manual lookup on Google Scholar or the journal site.

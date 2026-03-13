@@ -1,441 +1,485 @@
-# Publications from OpenAlex: J. Mason Earles + Mason Earles (UC Davis).
-# Optional per entry: podcast_url, podcast_drive_id (Google Drive), github (repo URL).
-# Source: OpenAlex author ids A5079120060, A5022634027.
-
-- title: "Using Vision Language Foundation Models to Generate Plant Simulation Configurations via In-Context Learning"
-  authors: "Heesup Yun, Isaac Kazuo Uyehara, Earl Ranario, Lars Lundqvist, Christine H. Diepenbrock, Brian N. Bailey, J. Mason Earles"
+- title: Using Vision Language Foundation Models to Generate Plant Simulation Configurations
+    via In-Context Learning
+  authors: Heesup Yun, Isaac Kazuo Uyehara, Earl Ranario, Lars Lundqvist, Christine
+    H. Diepenbrock, Brian N. Bailey, J. Mason Earles
   year: 2026
-  url: "https://arxiv.org/abs/2603.08930"
-  podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/AI_turns_drone_photos_into_digital_twins.m4a"
-  website: "https://heesup.github.io/projects/vlm-plant-sim/"
-
-- title: "AGILE: A Diffusion-Based Attention-Guided Image and Label Translation for Efficient Cross-Domain Plant Trait Identification"
+  url: https://arxiv.org/abs/2603.08930
+  podcast_url: https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/AI_turns_drone_photos_into_digital_twins.m4a
+  website: https://heesup.github.io/projects/vlm-plant-sim/
+- title: 'AGILE: A Diffusion-Based Attention-Guided Image and Label Translation for
+    Efficient Cross-Domain Plant Trait Identification'
   authors: Earl Ranario, Lars Lundqvist, Heesup Yun, Brian N. Bailey, J. Mason Earles
   year: 2025
-  url: "https://doi.org/10.1109/cvprw67362.2025.00536"
-  github: "https://github.com/plant-ai-biophysics-lab/AGILE"
-  website: "https://eranario.github.io/publications/AGILE/"
-
-- title: "AgRowStitch: A High-fidelity Image Stitching Pipeline for Ground-based Agricultural Images"
+  url: https://doi.org/10.1109/cvprw67362.2025.00536
+  github: https://github.com/plant-ai-biophysics-lab/AGILE
+  website: https://eranario.github.io/publications/AGILE/
+- title: 'AgRowStitch: A High-fidelity Image Stitching Pipeline for Ground-based Agricultural
+    Images'
   authors: Uyehara, Isaac Kazuo, Yun, Heesup, Ranario, Earl, Earles, Mason
   year: 2025
-  url: "https://doi.org/10.48550/arxiv.2503.21990"
-  github: "https://github.com/GEMINI-Breeding/AgRowStitch"
-
-- title: Are vision-language models ready to zero-shot replace supervised classification models in agriculture?
+  url: https://doi.org/10.48550/arxiv.2503.21990
+  github: https://github.com/GEMINI-Breeding/AgRowStitch
+- title: Are vision-language models ready to zero-shot replace supervised classification
+    models in agriculture?
   authors: Ranario, Earl, Earles, Mason J.
   year: 2026
-  url: "https://arxiv.org/abs/2512.15977"
-  podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/Why_Generalist_AI_Fails_at_Crop_Diagnosis.m4a"
-  website: "https://eranario.github.io/publications/VLMs-Agriculture/"
-
-- title: "CMAViT: Integrating Climate, Management, and Remote Sensing Data for Crop Yield Prediction With Multimodel Vision Transformers"
-  authors: ""
+  url: https://arxiv.org/abs/2512.15977
+  podcast_url: https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/Why_Generalist_AI_Fails_at_Crop_Diagnosis.m4a
+  website: https://eranario.github.io/publications/VLMs-Agriculture/
+- title: 'CMAViT: Integrating Climate, Management, and Remote Sensing Data for Crop
+    Yield Prediction With Multimodel Vision Transformers'
+  authors: ''
   year: 2026
-  url: ""
-
-- title: Comparison of Mask-R-CNN and Thresholding-Based Segmentation for High-Throughput Phenotyping of Walnut Kernel Color
-  authors: Steven H. Lee, Sean McDowell, Charles Leslie, Kristina McCreery, Mason Earles, Patrick J. Brown
+  url: https://arxiv.org/abs/2411.16989
+- title: Comparison of Mask-R-CNN and Thresholding-Based Segmentation for High-Throughput
+    Phenotyping of Walnut Kernel Color
+  authors: Steven H. Lee, Sean McDowell, Charles Leslie, Kristina McCreery, Mason
+    Earles, Patrick J. Brown
   year: 2025
-  url: "https://doi.org/10.3390/plants14213335"
-
-- title: Enhancing AI microscopy for foodborne bacterial classification using adversarial domain adaptation to address optical and biological variability
-  authors: Siddhartha Bhattacharya, Aarham Wasit, J Mason Earles, Nitin Nitin, Jiyoon Yi
+  url: https://doi.org/10.3390/plants14213335
+- title: Enhancing AI microscopy for foodborne bacterial classification using adversarial
+    domain adaptation to address optical and biological variability
+  authors: Siddhartha Bhattacharya, Aarham Wasit, J Mason Earles, Nitin Nitin, Jiyoon
+    Yi
   year: 2025
-  url: "https://doi.org/10.3389/frai.2025.1632344"
-  github: "https://github.com/food-ai-engineering-lab/microcolony-domain-adaptation-frai"
-
-- title: Leaf hyperspectral reflectance detects pre‐visual stress to <i>Fusarium</i> wilt in strawberries
-  authors: Jessie Au, Christopher Y. S. Wong, Dominique D. A. Pincot, Frank N. Martin, Rishav Ray, Mason Earles, Troy S. Magney
+  url: https://doi.org/10.3389/frai.2025.1632344
+  github: https://github.com/food-ai-engineering-lab/microcolony-domain-adaptation-frai
+- title: Leaf hyperspectral reflectance detects pre‐visual stress to <i>Fusarium</i>
+    wilt in strawberries
+  authors: Jessie Au, Christopher Y. S. Wong, Dominique D. A. Pincot, Frank N. Martin,
+    Rishav Ray, Mason Earles, Troy S. Magney
   year: 2025
-  url: "https://doi.org/10.1002/ppj2.70046"
-
-- title: Strawberry fruit yield forecasting using image-based time-series plant phenological stages sequences
-  authors: Andres Montes de Oca, Troy Magney, Stavros G. Vougioukas, Dario Racano, Alejandro Torrez-Orozco, Steven A. Fennimore, Frank N. Martin, Mason Earles
+  url: https://doi.org/10.1002/ppj2.70046
+- title: Strawberry fruit yield forecasting using image-based time-series plant phenological
+    stages sequences
+  authors: Andres Montes de Oca, Troy Magney, Stavros G. Vougioukas, Dario Racano,
+    Alejandro Torrez-Orozco, Steven A. Fennimore, Frank N. Martin, Mason Earles
   year: 2025
-  url: "https://doi.org/10.1016/j.compag.2025.110516"
-  github: "https://github.com/plant-ai-biophysics-lab/strawberry-yield-forecasting"
-  podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/AI_and_Biology_Predict_Strawberry_Harvests.m4a"
-
-- title: "iNatAg: Multi-Class Classification Models Enabled by a Large-Scale Benchmark Dataset with 4.7M Images of 2,959 Crop and Weed Species"
+  url: https://doi.org/10.1016/j.compag.2025.110516
+  github: https://github.com/plant-ai-biophysics-lab/strawberry-yield-forecasting
+  podcast_url: https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/AI_and_Biology_Predict_Strawberry_Harvests.m4a
+- title: 'iNatAg: Multi-Class Classification Models Enabled by a Large-Scale Benchmark
+    Dataset with 4.7M Images of 2,959 Crop and Weed Species'
   authors: Naitik Jain, Amogh Joshi, Mason Earles
   year: 2025
-  url: "https://doi.org/10.1109/cvprw67362.2025.00547"
-  github: "https://github.com/plant-ai-biophysics-lab/AgML-iNat-Species-Classifier"
-  podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/Training_Farm_AI_With_Smartphone_Photos.m4a"
-
-- title: "California Crop Yield Benchmark: Combining Satellite Image, Climate, Evapotranspiration, and Soil Data Layers for County-Level Yield Forecasting of Over 70 Crops"
+  url: https://doi.org/10.1109/cvprw67362.2025.00547
+  github: https://github.com/plant-ai-biophysics-lab/AgML-iNat-Species-Classifier
+  podcast_url: https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/Training_Farm_AI_With_Smartphone_Photos.m4a
+- title: 'California Crop Yield Benchmark: Combining Satellite Image, Climate, Evapotranspiration,
+    and Soil Data Layers for County-Level Yield Forecasting of Over 70 Crops'
   authors: Hamid Kamangir, Mona Hajiesmaeeli, J. Mason Earles
   year: 2025
-  url: "https://arxiv.org/abs/2506.10228"
-  github: "https://github.com/plant-ai-biophysics-lab/california-crop-yield-benchmark"
-  podcast_url: "https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/AI_predicts_seventy_California_crop_yields.m4a"
-
-- title: "Integration of crop modeling and sensing into molecular breeding for nutritional quality and stress tolerance"
-  authors: ""
+  url: https://arxiv.org/abs/2506.10228
+  github: https://github.com/plant-ai-biophysics-lab/california-crop-yield-benchmark
+  podcast_url: https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/AI_predicts_seventy_California_crop_yields.m4a
+- title: Integration of crop modeling and sensing into molecular breeding for nutritional
+    quality and stress tolerance
+  authors: ''
   year: 2025
-  url: ""
-
-- title: "Enabling Plant Phenotyping in Weedy Environments using Multi-Modal Imagery via Synthetic and Generated Training Data"
-  authors: ""
+  url: https://doi.org/10.1007/s00122-025-04984-y
+- title: Enabling Plant Phenotyping in Weedy Environments using Multi-Modal Imagery
+    via Synthetic and Generated Training Data
+  authors: ''
   year: 2025
-  url: ""
-
-- title: "Evapotranspiration Forecasting for Weather-Driven Agricultural Water Management by Harnessing Deep Learning"
-  authors: ""
+  url: https://doi.org/10.48550/arxiv.2509.19208
+- title: Evapotranspiration Forecasting for Weather-Driven Agricultural Water Management
+    by Harnessing Deep Learning
+  authors: ''
   year: 2025
-  url: ""
-
-- title: "DAVIS-Ag: A Synthetic Plant Dataset for Prototyping Domain-Inspired Active Vision in Agricultural Robots"
-  authors: Taeyeong Choi, Dario Guevara, Zifei Cheng, Grisha Bandodkar, Chonghan Wang, Brian N. Bailey, Mason Earles, Xin Liu
+  url: ''
+- title: 'DAVIS-Ag: A Synthetic Plant Dataset for Prototyping Domain-Inspired Active
+    Vision in Agricultural Robots'
+  authors: Taeyeong Choi, Dario Guevara, Zifei Cheng, Grisha Bandodkar, Chonghan Wang,
+    Brian N. Bailey, Mason Earles, Xin Liu
   year: 2024
-  url: "https://doi.org/10.1109/case59546.2024.10711368"
-  github: "https://github.com/ctyeong/DAVIS-Ag"
-
-- title: "Large-scale spatio-temporal yield estimation via deep learning using satellite and management data fusion in vineyards"
-  authors: Hamid Kamangir, Brent S. Sams, Nick Dokoozlian, Luis Sanchez, J. Mason Earles
+  url: https://doi.org/10.1109/case59546.2024.10711368
+  github: https://github.com/ctyeong/DAVIS-Ag
+- title: Large-scale spatio-temporal yield estimation via deep learning using satellite
+    and management data fusion in vineyards
+  authors: Hamid Kamangir, Brent S. Sams, Nick Dokoozlian, Luis Sanchez, J. Mason
+    Earles
   year: 2024
-  url: "https://doi.org/10.1016/j.compag.2024.108439"
-  github: "https://github.com/plant-ai-biophysics-lab/rs-spatiotemporal-vineyard-yield-forecasting"
-
-- title: "Predicting Crop Yield Lows Through Highs via Binned Deep Imbalanced Regression"
+  url: https://doi.org/10.1016/j.compag.2024.108439
+  github: https://github.com/plant-ai-biophysics-lab/rs-spatiotemporal-vineyard-yield-forecasting
+- title: Predicting Crop Yield Lows Through Highs via Binned Deep Imbalanced Regression
   authors: Hamid Kamangir, J. Mason Earles
   year: 2024
-  url: "https://github.com/plant-ai-biophysics-lab/imbalance_deep_regression_yield_forecasting"
-  github: "https://github.com/plant-ai-biophysics-lab/imbalance_deep_regression_yield_forecasting"
-
-- title: Deep learning enabled rapid classification of yeast species in food by imaging of yeast microcolonies
+  url: https://github.com/plant-ai-biophysics-lab/imbalance_deep_regression_yield_forecasting
+  github: https://github.com/plant-ai-biophysics-lab/imbalance_deep_regression_yield_forecasting
+- title: Deep learning enabled rapid classification of yeast species in food by imaging
+    of yeast microcolonies
   authors: Hyeon Woo Park, J. Mason Earles, Nitin Nitin
   year: 2024
-  url: "https://doi.org/10.1016/j.foodres.2024.115604"
-
-- title: Enhancing AI microscopy for foodborne bacterial classification via adversarial domain adaptation across optical and biological variability
-  authors: Bhattacharya, Siddhartha, Wasit, Aarham, Earles, Mason, Nitin, Nitin, Ma, Luyao, Yi, Jiyoon
+  url: https://doi.org/10.1016/j.foodres.2024.115604
+- title: Enhancing AI microscopy for foodborne bacterial classification via adversarial
+    domain adaptation across optical and biological variability
+  authors: Bhattacharya, Siddhartha, Wasit, Aarham, Earles, Mason, Nitin, Nitin, Ma,
+    Luyao, Yi, Jiyoon
   year: 2024
-  url: "https://doi.org/10.48550/arxiv.2411.19514"
-
-- title: Simulation of Automatically Annotated Visible and Multi-/Hyperspectral Images Using the Helios 3D Plant and Radiative Transfer Modeling Framework
+  url: https://doi.org/10.48550/arxiv.2411.19514
+- title: Simulation of Automatically Annotated Visible and Multi-/Hyperspectral Images
+    Using the Helios 3D Plant and Radiative Transfer Modeling Framework
   authors: Tong Lei, Jan Graefe, Ismael K. Mayanja, Mason Earles, Brian N. Bailey
   year: 2024
-  url: "https://doi.org/10.34133/plantphenomics.0189"
-
-- title: "The AIFS Institute: Building a better food system through AI"
-  authors: Ilias Tagkopoulos, Mason J. Earles, Danielle G. Lemay, Xin Liu, Nitin Nitin, Aaron D. Smith, Tarek I. Zohdi, Stephen F. Brown
+  url: https://doi.org/10.34133/plantphenomics.0189
+- title: 'The AIFS Institute: Building a better food system through AI'
+  authors: Ilias Tagkopoulos, Mason J. Earles, Danielle G. Lemay, Xin Liu, Nitin Nitin,
+    Aaron D. Smith, Tarek I. Zohdi, Stephen F. Brown
   year: 2024
-  url: "https://doi.org/10.1002/aaai.12164"
-
-- title: "VisTA-SR: improving the accuracy and resolution of low-cost thermal imaging cameras for agriculture"
-  authors: ""
+  url: https://doi.org/10.1002/aaai.12164
+- title: 'VisTA-SR: improving the accuracy and resolution of low-cost thermal imaging
+    cameras for agriculture'
+  authors: ''
   year: 2024
-  url: ""
-
-- title: "Forecasting Satellite-based Actual Evapotranspiration using Deep Learning in California Cropping Systems"
-  authors: ""
+  url: https://doi.org/10.1109/cvprw63382.2024.00556
+- title: Forecasting Satellite-based Actual Evapotranspiration using Deep Learning
+    in California Cropping Systems
+  authors: ''
   year: 2024
-  url: ""
-
-- title: "AI-enabled biosensing for rapid pathogen detection: From liquid food to agricultural water"
+  url: ''
+- title: 'AI-enabled biosensing for rapid pathogen detection: From liquid food to
+    agricultural water'
   authors: Jiyoon Yi, Nicharee Wisuthiphaet, Pranav Raja, Nitin Nitin, J. Mason Earles
   year: 2023
-  url: "https://doi.org/10.1016/j.watres.2023.120258"
-
-- title: An Open Source Simulation Toolbox for Annotation of Images and Point Clouds in Agricultural Scenarios
-  authors: Dario Guevara, Amogh Joshi, Pranav Raja, Elisabeth Forrestel, Brian Bailey, Mason Earles
+  url: https://doi.org/10.1016/j.watres.2023.120258
+- title: An Open Source Simulation Toolbox for Annotation of Images and Point Clouds
+    in Agricultural Scenarios
+  authors: Dario Guevara, Amogh Joshi, Pranav Raja, Elisabeth Forrestel, Brian Bailey,
+    Mason Earles
   year: 2023
-  url: "https://doi.org/10.1007/978-3-031-47969-4_43"
-
-- title: Automated parameterization of stomatal conductance models from thermal imagery by leveraging synthetic images generated from Helios 3D biophysical model simulations
+  url: https://doi.org/10.1007/978-3-031-47969-4_43
+- title: Automated parameterization of stomatal conductance models from thermal imagery
+    by leveraging synthetic images generated from Helios 3D biophysical model simulations
   authors: Ismael Mayanja, Heesup Yun, Mason Earles, Brian N. Bailey
   year: 2023
-  url: "https://doi.org/10.22541/essoar.169772153.35281511/v1"
-
-- title: Biometeorological Dataset for 'Novel algorithms for high resolution prediction of canopy evapotranspiration in grapevine'
-  authors: Jenkins, Matthew, Mannsfeld, Autumn, Nikzad, Shayla, Lambert, Jean-Jacques, Miller, Konrad, Burns, Mark, Earles, J. Mason, Block, David E.
+  url: https://doi.org/10.22541/essoar.169772153.35281511/v1
+- title: Biometeorological Dataset for 'Novel algorithms for high resolution prediction
+    of canopy evapotranspiration in grapevine'
+  authors: Jenkins, Matthew, Mannsfeld, Autumn, Nikzad, Shayla, Lambert, Jean-Jacques,
+    Miller, Konrad, Burns, Mark, Earles, J. Mason, Block, David E.
   year: 2023
-  url: "https://doi.org/10.5281/zenodo.7983157"
-
-- title: Erratum for Ma et al., “Accelerating the Detection of Bacteria in Food Using Artificial Intelligence and Optical Imaging”
+  url: https://doi.org/10.5281/zenodo.7983157
+- title: Erratum for Ma et al., “Accelerating the Detection of Bacteria in Food Using
+    Artificial Intelligence and Optical Imaging”
   authors: Luyao Ma, Jiyoon Yi, Nicharee Wisuthiphaet, Mason Earles, Nitin Nitin
   year: 2023
-  url: "https://doi.org/10.1128/aem.00644-23"
-
-- title: Novel algorithms for high-resolution prediction of canopy evapotranspiration in grapevine
-  authors: Matthew Jenkins, Autumn Mannsfeld, Shayla Nikzad, Jean-Jacques Lambert, Konrad Miller, Mark Burns, J. Mason Earles, David E. Block
+  url: https://doi.org/10.1128/aem.00644-23
+- title: Novel algorithms for high-resolution prediction of canopy evapotranspiration
+    in grapevine
+  authors: Matthew Jenkins, Autumn Mannsfeld, Shayla Nikzad, Jean-Jacques Lambert,
+    Konrad Miller, Mark Burns, J. Mason Earles, David E. Block
   year: 2023
-  url: "https://doi.org/10.20870/oeno-one.2023.57.3.7251"
-
-- title: "Site-Specific Soil Pest Management in Strawberry and Vegetable Cropping Systems Using Crop Rotation and a Needs-Based Variable Rate Fumigation Strategy"
-  authors: ""
+  url: https://doi.org/10.20870/oeno-one.2023.57.3.7251
+- title: Site-Specific Soil Pest Management in Strawberry and Vegetable Cropping Systems
+    Using Crop Rotation and a Needs-Based Variable Rate Fumigation Strategy
+  authors: ''
   year: 2023
-  url: ""
-
-- title: A workflow for segmenting soil and plant X-ray CT images with deep learning in Googles Colaboratory
-  authors: Rippner, Devin A., Raja, Pranav, Earles, J. Mason, Buchko, Alexander, Momayyezi, Mina, Duong, Fiona, Parkinson, Dilworth, Forrestel, Elizabeth, Shackel, Ken, Neyhart, Jeffrey, McElrone, Andrew J.
+  url: ''
+- title: A workflow for segmenting soil and plant X-ray CT images with deep learning
+    in Googles Colaboratory
+  authors: Rippner, Devin A., Raja, Pranav, Earles, J. Mason, Buchko, Alexander, Momayyezi,
+    Mina, Duong, Fiona, Parkinson, Dilworth, Forrestel, Elizabeth, Shackel, Ken, Neyhart,
+    Jeffrey, McElrone, Andrew J.
   year: 2022
-  url: "https://doi.org/10.48550/arxiv.2203.09674"
-
-- title: Accelerating the Detection of Bacteria in Food Using Artificial Intelligence and Optical Imaging
+  url: https://doi.org/10.48550/arxiv.2203.09674
+- title: Accelerating the Detection of Bacteria in Food Using Artificial Intelligence
+    and Optical Imaging
   authors: Luyao Ma, Jiyoon Yi, Nicharee Wisuthiphaet, Mason Earles, Nitin Nitin
   year: 2022
-  url: "https://doi.org/10.1128/aem.01828-22"
-
-- title: Non-destructive Plant Biomass Monitoring With High Spatio-Temporal Resolution via Proximal RGB-D Imagery and End-to-End Deep Learning
+  url: https://doi.org/10.1128/aem.01828-22
+- title: Non-destructive Plant Biomass Monitoring With High Spatio-Temporal Resolution
+    via Proximal RGB-D Imagery and End-to-End Deep Learning
   authors: Nicolas Buxbaum, Johann Heinrich Lieth, Mason Earles
   year: 2022
-  url: "https://doi.org/10.3389/fpls.2022.758818"
-
-- title: Standardizing and Centralizing Datasets to Enable Efficient Training of Agricultural Deep Learning Models
+  url: https://doi.org/10.3389/fpls.2022.758818
+- title: Standardizing and Centralizing Datasets to Enable Efficient Training of Agricultural
+    Deep Learning Models
   authors: Joshi, Amogh, Guevara, Dario, Earles, Mason
   year: 2022
-  url: "https://doi.org/10.48550/arxiv.2208.02707"
-  github: "https://github.com/Project-AgML/AgML"
-
-- title: Structural and functional leaf diversity lead to variability in photosynthetic capacity across a range of <i>Juglans regia</i> genotypes
-  authors: Mina Momayyezi, Devin A. Rippner, Fiona V. Duong, Pranav V. Raja, Patrick J. Brown, Daniel A. Kluepfel, J. Mason Earles, Elisabeth J. Forrestel, Matthew E. Gilbert, Andrew J. McElrone
+  url: https://doi.org/10.48550/arxiv.2208.02707
+  github: https://github.com/Project-AgML/AgML
+- title: Structural and functional leaf diversity lead to variability in photosynthetic
+    capacity across a range of <i>Juglans regia</i> genotypes
+  authors: Mina Momayyezi, Devin A. Rippner, Fiona V. Duong, Pranav V. Raja, Patrick
+    J. Brown, Daniel A. Kluepfel, J. Mason Earles, Elisabeth J. Forrestel, Matthew
+    E. Gilbert, Andrew J. McElrone
   year: 2022
-  url: "https://doi.org/10.1111/pce.14370"
-
-- title: "End-to-end deep learning for directly estimating grape yield from ground-based imagery"
-  authors: ""
+  url: https://doi.org/10.1111/pce.14370
+- title: End-to-end deep learning for directly estimating grape yield from ground-based
+    imagery
+  authors: ''
   year: 2022
-  url: ""
-
-- title: "End-to-end prediction of uniaxial compression profiles of apples during in vitro digestion using time-series micro-computed tomography and deep learning"
-  authors: ""
+  url: https://doi.org/10.1016/j.compag.2022.107081
+- title: End-to-end prediction of uniaxial compression profiles of apples during in
+    vitro digestion using time-series micro-computed tomography and deep learning
+  authors: ''
   year: 2022
-  url: ""
-
-- title: "Leveraging Artificial Intelligence in the Improvement of Yield and Quality in Nutritional Security Crops"
-  authors: ""
+  url: https://doi.org/10.1016/j.jfoodeng.2022.111014
+- title: Leveraging Artificial Intelligence in the Improvement of Yield and Quality
+    in Nutritional Security Crops
+  authors: ''
   year: 2022
-  url: ""
-
-- title: Enlisting 3D Crop Models and GANs for More Data Efficient and Generalizable Fruit Detection
+  url: ''
+- title: Enlisting 3D Crop Models and GANs for More Data Efficient and Generalizable
+    Fruit Detection
   authors: Zhenghao Fei, Alex Olenskyj, Brian N. Bailey, Mason Earles
   year: 2021
-  url: "https://doi.org/10.1109/iccvw54120.2021.00147"
-  github: "https://github.com/plant-ai-biophysics-lab/CropGAN"
-
+  url: https://doi.org/10.1109/iccvw54120.2021.00147
+  github: https://github.com/plant-ai-biophysics-lab/CropGAN
 - title: Improving Walnut (J. regia) Kernel Color Analyses
   authors: Steven Lee, Mason Earles, Sean McDowell, Patrick Brown
   year: 2021
-  url: "https://doi.org/10.1002/essoar.10509229.1"
-
-- title: Maximum CO <sub>2</sub> diffusion inside leaves is limited by the scaling of cell size and genome size
-  authors: Guillaume Théroux-Rancourt, Adam B. Roddy, J. Mason Earles, Matthew E. Gilbert, Maciej A. Zwieniecki, C. Kevin Boyce, Danny Tholen, Andrew J. McElrone, Kevin A. Simonin, Craig R. Brodersen
+  url: https://doi.org/10.1002/essoar.10509229.1
+- title: Maximum CO <sub>2</sub> diffusion inside leaves is limited by the scaling
+    of cell size and genome size
+  authors: Guillaume Théroux-Rancourt, Adam B. Roddy, J. Mason Earles, Matthew E.
+    Gilbert, Maciej A. Zwieniecki, C. Kevin Boyce, Danny Tholen, Andrew J. McElrone,
+    Kevin A. Simonin, Craig R. Brodersen
   year: 2021
-  url: "https://doi.org/10.1098/rspb.2020.3145"
-
-- title: R script used to generate the theoretical conductance values based on cell size and leaf porosity. from Maximum CO<sub>2</sub> diffusion inside leaves is limited by the scaling of cell size and genome size
-  authors: Théroux-Rancourt, Guillaume, Roddy, Adam B., J. Mason Earles, Gilbert, Matthew E., Zwieniecki, Maciej A., C. Kevin Boyce, Tholen, Danny, McElrone, Andrew J., Simonin, Kevin A., Brodersen, Craig R.
+  url: https://doi.org/10.1098/rspb.2020.3145
+- title: R script used to generate the theoretical conductance values based on cell
+    size and leaf porosity. from Maximum CO<sub>2</sub> diffusion inside leaves is
+    limited by the scaling of cell size and genome size
+  authors: Théroux-Rancourt, Guillaume, Roddy, Adam B., J. Mason Earles, Gilbert,
+    Matthew E., Zwieniecki, Maciej A., C. Kevin Boyce, Tholen, Danny, McElrone, Andrew
+    J., Simonin, Kevin A., Brodersen, Craig R.
   year: 2021
-  url: "https://doi.org/10.6084/m9.figshare.13889500"
-
-- title: R script used to generate the theoretical conductance values based on cell size and leaf porosity. from Maximum CO<sub>2</sub> diffusion inside leaves is limited by the scaling of cell size and genome size
-  authors: Théroux-Rancourt, Guillaume, Roddy, Adam B., J. Mason Earles, Gilbert, Matthew E., Zwieniecki, Maciej A., C. Kevin Boyce, Tholen, Danny, McElrone, Andrew J., Simonin, Kevin A., Brodersen, Craig R.
+  url: https://doi.org/10.6084/m9.figshare.13889500
+- title: R script used to generate the theoretical conductance values based on cell
+    size and leaf porosity. from Maximum CO<sub>2</sub> diffusion inside leaves is
+    limited by the scaling of cell size and genome size
+  authors: Théroux-Rancourt, Guillaume, Roddy, Adam B., J. Mason Earles, Gilbert,
+    Matthew E., Zwieniecki, Maciej A., C. Kevin Boyce, Tholen, Danny, McElrone, Andrew
+    J., Simonin, Kevin A., Brodersen, Craig R.
   year: 2021
-  url: "https://doi.org/10.6084/m9.figshare.13889500.v1"
-
-- title: Simultaneously Predicting Multiple Plant Traits from Multiple Sensors via Deformable CNN Regression
+  url: https://doi.org/10.6084/m9.figshare.13889500.v1
+- title: Simultaneously Predicting Multiple Plant Traits from Multiple Sensors via
+    Deformable CNN Regression
   authors: Raja, Pranav, Olenskyj, Alex, Kamangir, Hamid, Earles, Mason
   year: 2021
-  url: "https://doi.org/10.48550/arxiv.2112.03205"
-
-- title: Supplementary Tables from Maximum CO<sub>2</sub> diffusion inside leaves is limited by the scaling of cell size and genome size
-  authors: Théroux-Rancourt, Guillaume, Roddy, Adam B., J. Mason Earles, Gilbert, Matthew E., Zwieniecki, Maciej A., C. Kevin Boyce, Tholen, Danny, McElrone, Andrew J., Simonin, Kevin A., Brodersen, Craig R.
+  url: https://doi.org/10.48550/arxiv.2112.03205
+- title: Supplementary Tables from Maximum CO<sub>2</sub> diffusion inside leaves
+    is limited by the scaling of cell size and genome size
+  authors: Théroux-Rancourt, Guillaume, Roddy, Adam B., J. Mason Earles, Gilbert,
+    Matthew E., Zwieniecki, Maciej A., C. Kevin Boyce, Tholen, Danny, McElrone, Andrew
+    J., Simonin, Kevin A., Brodersen, Craig R.
   year: 2021
-  url: "https://doi.org/10.6084/m9.figshare.13889503"
-
-- title: The 3D construction of leaves is coordinated with water use efficiency in conifers
-  authors: Santiago Trueba, Guillaume Théroux-Rancourt, J Mason Earles, Thomas N. Buckley, David Love, Daniel M Johnson, Craig Brodersen
+  url: https://doi.org/10.6084/m9.figshare.13889503
+- title: The 3D construction of leaves is coordinated with water use efficiency in
+    conifers
+  authors: Santiago Trueba, Guillaume Théroux-Rancourt, J Mason Earles, Thomas N.
+    Buckley, David Love, Daniel M Johnson, Craig Brodersen
   year: 2021
-  url: "https://doi.org/10.1101/2021.04.23.441113"
-
-- title: The three‐dimensional construction of leaves is coordinated with water use efficiency in conifers
-  authors: Santiago Trueba, Guillaume Théroux‐Rancourt, J. Mason Earles, Thomas N. Buckley, David Love, Daniel M. Johnson, Craig Brodersen
+  url: https://doi.org/10.1101/2021.04.23.441113
+- title: The three‐dimensional construction of leaves is coordinated with water use
+    efficiency in conifers
+  authors: Santiago Trueba, Guillaume Théroux‐Rancourt, J. Mason Earles, Thomas N.
+    Buckley, David Love, Daniel M. Johnson, Craig Brodersen
   year: 2021
-  url: "https://doi.org/10.1111/nph.17772"
-
-- title: "Site-specific soil pest management in strawberry & vegetable cropping systems"
-  authors: ""
+  url: https://doi.org/10.1111/nph.17772
+- title: Site-specific soil pest management in strawberry & vegetable cropping systems
+  authors: ''
   year: 2021
-  url: ""
-
-- title: Digitally deconstructing leaves in 3D using X‐ray microcomputed tomography and machine learning
-  authors: Guillaume Théroux‐Rancourt, Matthew R. Jenkins, Craig R. Brodersen, Andrew McElrone, Elisabeth J. Forrestel, J. Mason Earles
+  url: ''
+- title: Digitally deconstructing leaves in 3D using X‐ray microcomputed tomography
+    and machine learning
+  authors: Guillaume Théroux‐Rancourt, Matthew R. Jenkins, Craig R. Brodersen, Andrew
+    McElrone, Elisabeth J. Forrestel, J. Mason Earles
   year: 2020
-  url: "https://doi.org/10.1002/aps3.11380"
-
-- title: Image Dataset for 'Digitally deconstructing leaves in 3D using X-ray microcomputed tomography and machine learning'
+  url: https://doi.org/10.1002/aps3.11380
+- title: Image Dataset for 'Digitally deconstructing leaves in 3D using X-ray microcomputed
+    tomography and machine learning'
   authors: Théroux-Rancourt, Guillaume, Jenkins, Matthew R., Earles, J. Mason
   year: 2020
-  url: "https://doi.org/10.5281/zenodo.3694973"
-
-- title: Image Dataset for 'Digitally deconstructing leaves in 3D using X-ray microcomputed tomography and machine learning'
+  url: https://doi.org/10.5281/zenodo.3694973
+- title: Image Dataset for 'Digitally deconstructing leaves in 3D using X-ray microcomputed
+    tomography and machine learning'
   authors: Théroux-Rancourt, Guillaume, Jenkins, Matthew R., Earles, J. Mason
   year: 2020
-  url: "https://doi.org/10.5281/zenodo.3694972"
-
-- title: Maximum CO <sub>2</sub> diffusion inside leaves is limited by the scaling of cell size and genome size
-  authors: Guillaume Théroux-Rancourt, Adam B. Roddy, J. Mason Earles, Matthew E. Gilbert, Maciej A. Zwieniecki, C. Kevin Boyce, Danny Tholen, Andrew J. McElrone, Kevin A. Simonin, Craig R. Brodersen
+  url: https://doi.org/10.5281/zenodo.3694972
+- title: Maximum CO <sub>2</sub> diffusion inside leaves is limited by the scaling
+    of cell size and genome size
+  authors: Guillaume Théroux-Rancourt, Adam B. Roddy, J. Mason Earles, Matthew E.
+    Gilbert, Maciej A. Zwieniecki, C. Kevin Boyce, Danny Tholen, Andrew J. McElrone,
+    Kevin A. Simonin, Craig R. Brodersen
   year: 2020
-  url: "https://doi.org/10.1101/2020.01.16.904458"
-
-- title: MicroCT data to 'Maximum CO2 diffusion inside leaves is limited by the scaling of cell size and genome size'
-  authors: Théroux-Rancourt, Guillaume, Roddy, Adam. B., Earles, J. Mason, Boyce, C. Kevin, Zwieniecki, Maciej A., McElrone, Andrew J., Brodersen, Craig R.
+  url: https://doi.org/10.1101/2020.01.16.904458
+- title: MicroCT data to 'Maximum CO2 diffusion inside leaves is limited by the scaling
+    of cell size and genome size'
+  authors: Théroux-Rancourt, Guillaume, Roddy, Adam. B., Earles, J. Mason, Boyce,
+    C. Kevin, Zwieniecki, Maciej A., McElrone, Andrew J., Brodersen, Craig R.
   year: 2020
-  url: "https://doi.org/10.5281/zenodo.3606063"
-
-- title: MicroCT data to 'Maximum CO2 diffusion inside leaves is limited by the scaling of cell size and genome size'
-  authors: Théroux-Rancourt, Guillaume, Roddy, Adam. B., Earles, J. Mason, Boyce, C. Kevin, Zwieniecki, Maciej A., McElrone, Andrew J., Brodersen, Craig R.
+  url: https://doi.org/10.5281/zenodo.3606063
+- title: MicroCT data to 'Maximum CO2 diffusion inside leaves is limited by the scaling
+    of cell size and genome size'
+  authors: Théroux-Rancourt, Guillaume, Roddy, Adam. B., Earles, J. Mason, Boyce,
+    C. Kevin, Zwieniecki, Maciej A., McElrone, Andrew J., Brodersen, Craig R.
   year: 2020
-  url: "https://doi.org/10.5281/zenodo.3606064"
-
-- title: Digitally Deconstructing Leaves in 3D Using X-ray Microcomputed Tomography and Machine Learning
-  authors: Guillaume Théroux-Rancourt, Matthew R. Jenkins, Craig R. Brodersen, Andrew McElrone, Elisabeth J. Forrestel, J. Mason Earles
+  url: https://doi.org/10.5281/zenodo.3606064
+- title: Digitally Deconstructing Leaves in 3D Using X-ray Microcomputed Tomography
+    and Machine Learning
+  authors: Guillaume Théroux-Rancourt, Matthew R. Jenkins, Craig R. Brodersen, Andrew
+    McElrone, Elisabeth J. Forrestel, J. Mason Earles
   year: 2019
-  url: "https://doi.org/10.1101/814954"
-
+  url: https://doi.org/10.1101/814954
 - title: Dynamics of carbohydrate storage in trees
-  authors: Tixier, Aude, Orozco, Jessica, Amico Roxas, Adèle, Guzman, Paula, Earles, Mason, Sperling, Or, Zwieniecki, Maciej
+  authors: Tixier, Aude, Orozco, Jessica, Amico Roxas, Adèle, Guzman, Paula, Earles,
+    Mason, Sperling, Or, Zwieniecki, Maciej
   year: 2019
-  url: "https://hal.inrae.fr/hal-02786942"
-
-- title: Spatiotemporal Coupling of Vessel Cavitation and Discharge of Stored Xylem Water in a Tree Sapling
-  authors: Thorsten Knipfer, Clarissa Reyes, J. Mason Earles, Z. Carter Berry, Daniel M. Johnson, Craig R. Brodersen, Andrew J. McElrone
+  url: https://hal.inrae.fr/hal-02786942
+- title: Spatiotemporal Coupling of Vessel Cavitation and Discharge of Stored Xylem
+    Water in a Tree Sapling
+  authors: Thorsten Knipfer, Clarissa Reyes, J. Mason Earles, Z. Carter Berry, Daniel
+    M. Johnson, Craig R. Brodersen, Andrew J. McElrone
   year: 2019
-  url: "https://doi.org/10.1104/pp.18.01303"
-
-- title: <i>In vivo</i> quantification of plant starch reserves at micrometer resolution using X‐ray micro<scp>CT</scp> imaging and machine learning
-  authors: J. Mason Earles, Thorsten Knipfer, Aude Tixier, Jessica Orozco, Clarissa Reyes, Maciej A. Zwieniecki, Craig R. Brodersen, Andrew J. McElrone
+  url: https://doi.org/10.1104/pp.18.01303
+- title: <i>In vivo</i> quantification of plant starch reserves at micrometer resolution
+    using X‐ray micro<scp>CT</scp> imaging and machine learning
+  authors: J. Mason Earles, Thorsten Knipfer, Aude Tixier, Jessica Orozco, Clarissa
+    Reyes, Maciej A. Zwieniecki, Craig R. Brodersen, Andrew J. McElrone
   year: 2018
-  url: "https://doi.org/10.1111/nph.15068"
-
-- title: "Beyond Porosity: 3D Leaf Intercellular Airspace Traits That Impact Mesophyll Conductance"
-  authors: J. Mason Earles, Guillaume Theroux-Rancourt, Adam B. Roddy, Matthew E. Gilbert, Andrew J. McElrone, Craig R. Brodersen
+  url: https://doi.org/10.1111/nph.15068
+- title: 'Beyond Porosity: 3D Leaf Intercellular Airspace Traits That Impact Mesophyll
+    Conductance'
+  authors: J. Mason Earles, Guillaume Theroux-Rancourt, Adam B. Roddy, Matthew E.
+    Gilbert, Andrew J. McElrone, Craig R. Brodersen
   year: 2018
-  url: "https://doi.org/10.1104/pp.18.00550"
-
-- title: "Beyond porosity: 3D leaf intercellular airspace traits that impact mesophyll conductance"
-  authors: J. Mason Earles, Guillaume Théroux‐Rancourt, Matthew E. Gilbert, Danny Tholen, Andrew J. McElrone, Craig R. Brodersen
+  url: https://doi.org/10.1104/pp.18.00550
+- title: 'Beyond porosity: 3D leaf intercellular airspace traits that impact mesophyll
+    conductance'
+  authors: J. Mason Earles, Guillaume Théroux‐Rancourt, Matthew E. Gilbert, Danny
+    Tholen, Andrew J. McElrone, Craig R. Brodersen
   year: 2018
-  url: "https://ui.adsabs.harvard.edu/abs/2018EGUGA..2012716M/abstract"
-
-- title: "Changes in xylem conducting capacity and water storage across species: how can variable air content of xylem cells affect sap flow?"
-  authors: A.J. McElrone, J.M. Earles, T.M. Knipfer, C.P. Albuquerque, C.R. Brodersen, I.F. Cuneo
+  url: https://ui.adsabs.harvard.edu/abs/2018EGUGA..2012716M/abstract
+- title: 'Changes in xylem conducting capacity and water storage across species: how
+    can variable air content of xylem cells affect sap flow?'
+  authors: A.J. McElrone, J.M. Earles, T.M. Knipfer, C.P. Albuquerque, C.R. Brodersen,
+    I.F. Cuneo
   year: 2018
-  url: "https://doi.org/10.17660/actahortic.2018.1222.2"
-
-- title: "Diurnal Variation in Nonstructural Carbohydrate Storage in Trees: Remobilization and Vertical Mixing"
-  authors: Aude Tixier, Jessica Orozco, Adele Amico Roxas, J. Mason Earles, Maciej A. Zwieniecki
+  url: https://doi.org/10.17660/actahortic.2018.1222.2
+- title: 'Diurnal Variation in Nonstructural Carbohydrate Storage in Trees: Remobilization
+    and Vertical Mixing'
+  authors: Aude Tixier, Jessica Orozco, Adele Amico Roxas, J. Mason Earles, Maciej
+    A. Zwieniecki
   year: 2018
-  url: "https://doi.org/10.1104/pp.18.00923"
-
+  url: https://doi.org/10.1104/pp.18.00923
 - title: Embracing 3D Complexity in Leaf Carbon–Water Exchange
-  authors: J. Mason Earles, Thomas N. Buckley, Craig R. Brodersen, Florian A. Busch, F. Javier Cano, Brendan Choat, John R. Evans, Graham D. Farquhar, Richard Harwood, Minh Huynh, Grace P. John, Megan L. Miller, Fulton E. Rockwell, Lawren Sack, Christine Scoffoni, Paul C. Struik, Alex Wu, Xinyou Yin, Margaret M. Barbour
+  authors: J. Mason Earles, Thomas N. Buckley, Craig R. Brodersen, Florian A. Busch,
+    F. Javier Cano, Brendan Choat, John R. Evans, Graham D. Farquhar, Richard Harwood,
+    Minh Huynh, Grace P. John, Megan L. Miller, Fulton E. Rockwell, Lawren Sack, Christine
+    Scoffoni, Paul C. Struik, Alex Wu, Xinyou Yin, Margaret M. Barbour
   year: 2018
-  url: "https://doi.org/10.1016/j.tplants.2018.09.005"
-
-- title: Extreme mid‐winter drought weakens tree hydraulic–carbohydrate systems and slows growth
-  authors: J. Mason Earles, Jens T. Stevens, Or Sperling, Jessica Orozco, Malcolm P. North, Maciej A. Zwieniecki
+  url: https://doi.org/10.1016/j.tplants.2018.09.005
+- title: Extreme mid‐winter drought weakens tree hydraulic–carbohydrate systems and
+    slows growth
+  authors: J. Mason Earles, Jens T. Stevens, Or Sperling, Jessica Orozco, Malcolm
+    P. North, Maciej A. Zwieniecki
   year: 2018
-  url: "https://doi.org/10.1111/nph.15136"
-
-- title: Insight into the physiological role of water absorption via the leaf surface from a rehydration kinetics perspective
+  url: https://doi.org/10.1111/nph.15136
+- title: Insight into the physiological role of water absorption via the leaf surface
+    from a rehydration kinetics perspective
   authors: Paula Guzmán‐Delgado, J. Mason Earles, Maciej A. Zwieniecki
   year: 2018
-  url: "https://doi.org/10.1111/pce.13327"
-
-- title: "In vivo quantification of plant starch reserves at micrometer resolution using X‑ray microCT imaging and machine learning"
-  authors: ""
+  url: https://doi.org/10.1111/pce.13327
+- title: In vivo quantification of plant starch reserves at micrometer resolution
+    using X‑ray microCT imaging and machine learning
+  authors: ''
   year: 2018
-  url: ""
-
-- title: Angiosperms evolved a higher mesophyll surface area per volume to maximize exchange surface under a low CO2 world
-  authors: Guillaume Théroux‐Rancourt, J. Mason Earles, Matthew E. Gilbert, Maciej A. Zwieniecki, C. Kevin Boyce, Andrew J. McElrone, Craig R. Brodersen
+  url: ''
+- title: Angiosperms evolved a higher mesophyll surface area per volume to maximize
+    exchange surface under a low CO2 world
+  authors: Guillaume Théroux‐Rancourt, J. Mason Earles, Matthew E. Gilbert, Maciej
+    A. Zwieniecki, C. Kevin Boyce, Andrew J. McElrone, Craig R. Brodersen
   year: 2017
-  url: "http://ui.adsabs.harvard.edu/abs/2017EGUGA..19.9904T/abstract"
-
-- title: Excess Diffuse Light Absorption in Upper Mesophyll Limits CO<sub>2</sub> Drawdown and Depresses Photosynthesis
-  authors: J. Mason Earles, Guillaume Théroux-Rancourt, Matthew E. Gilbert, Andrew J. McElrone, Craig R. Brodersen
+  url: http://ui.adsabs.harvard.edu/abs/2017EGUGA..19.9904T/abstract
+- title: Excess Diffuse Light Absorption in Upper Mesophyll Limits CO<sub>2</sub>
+    Drawdown and Depresses Photosynthesis
+  authors: J. Mason Earles, Guillaume Théroux-Rancourt, Matthew E. Gilbert, Andrew
+    J. McElrone, Craig R. Brodersen
   year: 2017
-  url: "https://doi.org/10.1104/pp.17.00223"
-
-- title: Spring bud growth depends on sugar delivery by xylem and water recirculation by phloem Münch flow in Juglans regia
-  authors: Aude Tixier, Or Sperling, Jessica Orozco, Bruce Lampinen, Adele Amico Roxas, Sebastian Saa, J. Mason Earles, Maciej A. Zwieniecki
+  url: https://doi.org/10.1104/pp.17.00223
+- title: Spring bud growth depends on sugar delivery by xylem and water recirculation
+    by phloem Münch flow in Juglans regia
+  authors: Aude Tixier, Or Sperling, Jessica Orozco, Bruce Lampinen, Adele Amico Roxas,
+    Sebastian Saa, J. Mason Earles, Maciej A. Zwieniecki
   year: 2017
-  url: "https://doi.org/10.1007/s00425-017-2707-7"
-
-- title: Storage Compartments for Capillary Water Rarely Refill in an Intact Woody Plant 
-  authors: Thorsten Knipfer, Italo F. Cuneo, J. Mason Earles, Clarissa Reyes, Craig R. Brodersen, Andrew J. McElrone
+  url: https://doi.org/10.1007/s00425-017-2707-7
+- title: Storage Compartments for Capillary Water Rarely Refill in an Intact Woody
+    Plant 
+  authors: Thorsten Knipfer, Italo F. Cuneo, J. Mason Earles, Clarissa Reyes, Craig
+    R. Brodersen, Andrew J. McElrone
   year: 2017
-  url: "https://doi.org/10.1104/pp.17.01133"
-
-- title: "The bias of a two‐dimensional view: comparing two‐dimensional and three‐dimensional mesophyll surface area estimates using noninvasive imaging"
-  authors: Guillaume Théroux‐Rancourt, J. Mason Earles, Matthew E. Gilbert, Maciej A. Zwieniecki, C. Kevin Boyce, Andrew J. McElrone, Craig R. Brodersen
+  url: https://doi.org/10.1104/pp.17.01133
+- title: 'The bias of a two‐dimensional view: comparing two‐dimensional and three‐dimensional
+    mesophyll surface area estimates using noninvasive imaging'
+  authors: Guillaume Théroux‐Rancourt, J. Mason Earles, Matthew E. Gilbert, Maciej
+    A. Zwieniecki, C. Kevin Boyce, Andrew J. McElrone, Craig R. Brodersen
   year: 2017
-  url: "https://doi.org/10.1111/nph.14687"
-
-- title: Appendix A. A table depicting stand characteristics of modeled mixed-conifer conditions and a figure showing carbon carrying capacity for 24 scenarios examined.
+  url: https://doi.org/10.1111/nph.14687
+- title: Appendix A. A table depicting stand characteristics of modeled mixed-conifer
+    conditions and a figure showing carbon carrying capacity for 24 scenarios examined.
   authors: J. Mason Earles, North, Malcolm P., Hurteau, Matthew D.
   year: 2016
-  url: "https://doi.org/10.6084/m9.figshare.3519338"
-
-- title: "Data from: Long-term climate and competition explain forest mortality patterns under extreme drought"
-  authors: Young, Derek J. N., Stevens, Jens T., Earles, J. Mason, Moore, Jeffrey, Ellis, Adam, Jirka, Amy L., Latimer, Andrew M.
+  url: https://doi.org/10.6084/m9.figshare.3519338
+- title: 'Data from: Long-term climate and competition explain forest mortality patterns
+    under extreme drought'
+  authors: Young, Derek J. N., Stevens, Jens T., Earles, J. Mason, Moore, Jeffrey,
+    Ellis, Adam, Jirka, Amy L., Latimer, Andrew M.
   year: 2016
-  url: "https://doi.org/10.5061/dryad.7vt36"
-
-- title: Long-term climate and competition explain regional forest mortality patterns under extreme drought
-  authors: Derek J. N. Young, Andrew M. Latimer, Jens T. Stevens, J. Mason Earles, Adam Ellis, A. Jirka, Jeffrey Moore
+  url: https://doi.org/10.5061/dryad.7vt36
+- title: Long-term climate and competition explain regional forest mortality patterns
+    under extreme drought
+  authors: Derek J. N. Young, Andrew M. Latimer, Jens T. Stevens, J. Mason Earles,
+    Adam Ellis, A. Jirka, Jeffrey Moore
   year: 2016
-  url: "http://ui.adsabs.harvard.edu/abs/2016AGUFM.B43H..02Y/abstract"
-
-- title: Long‐term climate and competition explain forest mortality patterns under extreme drought
-  authors: Derek J. N. Young, Jens T. Stevens, J. Mason Earles, Jeffrey Moore, Adam Ellis, Amy L. Jirka, Andrew M. Latimer
+  url: http://ui.adsabs.harvard.edu/abs/2016AGUFM.B43H..02Y/abstract
+- title: Long‐term climate and competition explain forest mortality patterns under
+    extreme drought
+  authors: Derek J. N. Young, Jens T. Stevens, J. Mason Earles, Jeffrey Moore, Adam
+    Ellis, Amy L. Jirka, Andrew M. Latimer
   year: 2016
-  url: "https://doi.org/10.1111/ele.12711"
-
-- title: Bark water uptake promotes localized hydraulic recovery in coastal redwood crown
-  authors: J. Mason Earles, Or Sperling, Lucas C. R. Silva, Andrew J. McElrone, Craig R. Brodersen, Malcolm P. North, Maciej A. Zwieniecki
+  url: https://doi.org/10.1111/ele.12711
+- title: Bark water uptake promotes localized hydraulic recovery in coastal redwood
+    crown
+  authors: J. Mason Earles, Or Sperling, Lucas C. R. Silva, Andrew J. McElrone, Craig
+    R. Brodersen, Malcolm P. North, Maciej A. Zwieniecki
   year: 2015
-  url: "https://doi.org/10.1111/pce.12612"
-
+  url: https://doi.org/10.1111/pce.12612
 - title: Frost Induces Respiration and Accelerates Carbon Depletion in Trees
-  authors: Or Sperling, J. Mason Earles, Francesca Secchi, Jessie Godfrey, Maciej A. Zwieniecki
+  authors: Or Sperling, J. Mason Earles, Francesca Secchi, Jessie Godfrey, Maciej
+    A. Zwieniecki
   year: 2015
-  url: "https://doi.org/10.1371/journal.pone.0144124"
-
-- title: Wildfire and drought dynamics destabilize carbon stores of fire‐suppressed forests
+  url: https://doi.org/10.1371/journal.pone.0144124
+- title: Wildfire and drought dynamics destabilize carbon stores of fire‐suppressed
+    forests
   authors: J. Mason Earles, Malcolm P. North, Matthew D. Hurteau
   year: 2014
-  url: "https://doi.org/10.1890/13-1860.1"
-
+  url: https://doi.org/10.1890/13-1860.1
 - title: Timing of carbon emissions from global forest clearance
   authors: J. Mason Earles, Sonia Yeh, Kenneth E. Skog
   year: 2012
-  url: "https://doi.org/10.1038/nclimate1535"
-
-- title: "Integrated economic equilibrium and life cycle assessment modeling for policy‐based consequential LCA"
-  authors: ""
+  url: https://doi.org/10.1038/nclimate1535
+- title: Integrated economic equilibrium and life cycle assessment modeling for policy‐based
+    consequential LCA
+  authors: ''
   year: 2013
-  url: ""
-
-- title: "Consequential life cycle assessment: a review"
+  url: ''
+- title: 'Consequential life cycle assessment: a review'
   authors: J. Mason Earles, Anthony Halog
   year: 2011
-  url: "https://doi.org/10.1007/s11367-011-0275-9"
-
-- title: Improving the Environmental Profile of Wood Panels via Co-Production of Ethanol and Acetic Acid
+  url: https://doi.org/10.1007/s11367-011-0275-9
+- title: Improving the Environmental Profile of Wood Panels via Co-Production of Ethanol
+    and Acetic Acid
   authors: J. Mason Earles, Anthony Halog, Stephen Shaler
   year: 2011
-  url: "https://doi.org/10.1021/es202180m"
-
-- title: "LCA and Forest Biorefining: Environmental Assessment of a Modified OSB Mill and an Integrated Partial Equilibrium Framework for Policy Analysis"
+  url: https://doi.org/10.1021/es202180m
+- title: 'LCA and Forest Biorefining: Environmental Assessment of a Modified OSB Mill
+    and an Integrated Partial Equilibrium Framework for Policy Analysis'
   authors: J. Mason Earles
   year: 2011
-  url: "https://digitalcommons.library.umaine.edu/etd/1302"
-
-- title: Comparative life cycle assessment of biofuel produced in two forest product biorefineries
+  url: https://digitalcommons.library.umaine.edu/etd/1302
+- title: Comparative life cycle assessment of biofuel produced in two forest product
+    biorefineries
   authors: Mason Earles, Anthony Halog
   year: 2010
+  url: https://openalex.org/W2921174475
