@@ -1,15 +1,19 @@
-# Team members (flat list). Optional: photo, email, twitter, github, interests (array), bio.
+# Team members (flat list). Optional: photo, email, twitter, github, website, interests (array), bio.
 # Displayed alphabetically by name. Role shown in parentheses after name.
+# website: personal homepage URL (shows link icon next to name)
 
 members:
   - name: Apoorva Jha
     role: PhD Student
   - name: Earl Ranario
     role: PhD Student
+    website: https://eranario.github.io/
   - name: Hamid Kamangir
     role: Postdoc
+    website: https://github.com/hkaman7
   - name: Heesup Yun
     role: PhD Student
+    website: https://heesup.github.io/
   - name: Lars Lundqvist
     role: Undergrad
   - name: Mason Earles

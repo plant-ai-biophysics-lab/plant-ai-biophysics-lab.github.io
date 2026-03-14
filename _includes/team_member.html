@@ -11,7 +11,7 @@
     </div>
     {% endif %}
     <div class="team-member__info" style="flex: 1; min-width: 0;">
-      <h3 class="team-member__name" style="margin: 0 0 0.25rem 0; font-weight: normal;">{{ m.name }}{% if m.role %} ({{ m.role }}){% endif %}</h3>
+      <h3 class="team-member__name" style="margin: 0 0 0.25rem 0; font-weight: normal;">{{ m.name }}{% if m.role %} ({{ m.role }}){% endif %}{% if m.website and m.website != "" %}&nbsp;<a href="{{ m.website }}" target="_blank" rel="noopener noreferrer" title="Personal website" style="font-size: 0.85em; color: inherit; opacity: 0.7; text-decoration: none;"><i class="fas fa-external-link-alt" aria-hidden="true"></i></a>{% endif %}</h3>
       {% if m.interests and m.interests.size > 0 %}
         <p class="team-member__interests" style="margin-bottom: 0.5rem;">
           Research interests<br>
