@@ -1,5 +1,6 @@
-# Team members (flat list). Optional: photo, email, twitter, github, website, interests (array), bio.
-# Displayed alphabetically by name. Role shown in parentheses after name.
+# Team members: members = current, past_members = alumni.
+# Optional: photo, email, twitter, github, website, interests (array), bio.
+# Displayed alphabetically. Role shown in parentheses after name.
 # website: personal homepage URL (shows link icon next to name)
 
 members:
@@ -22,3 +23,27 @@ members:
     role: MS Student
   - name: Vishal Singh
     role: PhD Student
+
+# Past members / alumni (same fields as members)
+past_members:
+  - name: Alex Olenskyj
+    role: Postdoc
+  - name: Dario Guevara
+    role: Postdoc
+  - name: Zhenghao Fei
+    role: Postdoc
+  - name: Jiyoon Yi
+    role: Postdoc
+  - name: Amogh Joshi
+    role: High Schooler
+    website: https://amogh7joshi.github.io/
+  - name: Pranav Raja
+    role: MS
+  - name: Nico Buxbaum
+    role: MS
+  - name: Noah Tarr
+    role: MS
+  - name: Sean McDowell
+    role: Undergrad
+  - name: Autumn Mansfield
+    role: Undergrad
