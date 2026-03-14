@@ -15,13 +15,13 @@
   website: https://eranario.github.io/publications/AGILE/
 - title: 'AgRowStitch: A High-fidelity Image Stitching Pipeline for Ground-based Agricultural
     Images'
-  authors: Uyehara, Isaac Kazuo, Yun, Heesup, Ranario, Earl, Earles, Mason
+  authors: Uyehara, Isaac Kazuo, Yun, Heesup, Ranario, Earl, Earles, J. Mason
   year: 2025
   url: https://doi.org/10.48550/arxiv.2503.21990
   github: https://github.com/GEMINI-Breeding/AgRowStitch
 - title: Are vision-language models ready to zero-shot replace supervised classification
     models in agriculture?
-  authors: Ranario, Earl, Earles, Mason J.
+  authors: Ranario, Earl, Earles, J. Mason
   year: 2026
   url: https://arxiv.org/abs/2512.15977
   podcast_url: https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/Why_Generalist_AI_Fails_at_Crop_Diagnosis.m4a
@@ -34,13 +34,12 @@
   podcast_url: https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/AI_predicts_yields_for_five_million_vines.m4a
 - title: Comparison of Mask-R-CNN and Thresholding-Based Segmentation for High-Throughput
     Phenotyping of Walnut Kernel Color
-  authors: Steven H. Lee, Sean McDowell, Charles Leslie, Kristina McCreery, Mason
-    Earles, Patrick J. Brown
+  authors: Steven H. Lee, Sean McDowell, Charles Leslie, Kristina McCreery, J. Mason Earles, Patrick J. Brown
   year: 2025
   url: https://doi.org/10.3390/plants14213335
 - title: Enhancing AI microscopy for foodborne bacterial classification using adversarial
     domain adaptation to address optical and biological variability
-  authors: Siddhartha Bhattacharya, Aarham Wasit, J Mason Earles, Nitin Nitin, Jiyoon
+  authors: Siddhartha Bhattacharya, Aarham Wasit, J. Mason Earles, Nitin Nitin, Jiyoon
     Yi
   year: 2025
   url: https://doi.org/10.3389/frai.2025.1632344
@@ -48,20 +47,20 @@
 - title: Leaf hyperspectral reflectance detects pre‐visual stress to <i>Fusarium</i>
     wilt in strawberries
   authors: Jessie Au, Christopher Y. S. Wong, Dominique D. A. Pincot, Frank N. Martin,
-    Rishav Ray, Mason Earles, Troy S. Magney
+    Rishav Ray, J. Mason Earles, Troy S. Magney
   year: 2025
   url: https://doi.org/10.1002/ppj2.70046
 - title: Strawberry fruit yield forecasting using image-based time-series plant phenological
     stages sequences
   authors: Andres Montes de Oca, Troy Magney, Stavros G. Vougioukas, Dario Racano,
-    Alejandro Torrez-Orozco, Steven A. Fennimore, Frank N. Martin, Mason Earles
+    Alejandro Torrez-Orozco, Steven A. Fennimore, Frank N. Martin, J. Mason Earles
   year: 2025
   url: https://doi.org/10.1016/j.compag.2025.110516
   github: https://github.com/plant-ai-biophysics-lab/strawberry-yield-forecasting
   podcast_url: https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/AI_and_Biology_Predict_Strawberry_Harvests.m4a
 - title: 'iNatAg: Multi-Class Classification Models Enabled by a Large-Scale Benchmark
     Dataset with 4.7M Images of 2,959 Crop and Weed Species'
-  authors: Naitik Jain, Amogh Joshi, Mason Earles
+  authors: Naitik Jain, Amogh Joshi, J. Mason Earles
   year: 2025
   url: https://doi.org/10.1109/cvprw67362.2025.00547
   github: https://github.com/plant-ai-biophysics-lab/AgML-iNat-Species-Classifier
@@ -91,7 +90,7 @@
 - title: 'DAVIS-Ag: A Synthetic Plant Dataset for Prototyping Domain-Inspired Active
     Vision in Agricultural Robots'
   authors: Taeyeong Choi, Dario Guevara, Zifei Cheng, Grisha Bandodkar, Chonghan Wang,
-    Brian N. Bailey, Mason Earles, Xin Liu
+    Brian N. Bailey, J. Mason Earles, Xin Liu
   year: 2024
   url: https://doi.org/10.1109/case59546.2024.10711368
   github: https://github.com/ctyeong/DAVIS-Ag
@@ -114,17 +113,17 @@
   url: https://doi.org/10.1016/j.foodres.2024.115604
 - title: Enhancing AI microscopy for foodborne bacterial classification via adversarial
     domain adaptation across optical and biological variability
-  authors: Bhattacharya, Siddhartha, Wasit, Aarham, Earles, Mason, Nitin, Nitin, Ma,
+  authors: Bhattacharya, Siddhartha, Wasit, Aarham, Earles, J. Mason, Nitin, Nitin, Ma,
     Luyao, Yi, Jiyoon
   year: 2024
   url: https://doi.org/10.48550/arxiv.2411.19514
 - title: Simulation of Automatically Annotated Visible and Multi-/Hyperspectral Images
     Using the Helios 3D Plant and Radiative Transfer Modeling Framework
-  authors: Tong Lei, Jan Graefe, Ismael K. Mayanja, Mason Earles, Brian N. Bailey
+  authors: Tong Lei, Jan Graefe, Ismael K. Mayanja, J. Mason Earles, Brian N. Bailey
   year: 2024
   url: https://doi.org/10.34133/plantphenomics.0189
 - title: 'The AIFS Institute: Building a better food system through AI'
-  authors: Ilias Tagkopoulos, Mason J. Earles, Danielle G. Lemay, Xin Liu, Nitin Nitin,
+  authors: Ilias Tagkopoulos, J. Mason Earles, Danielle G. Lemay, Xin Liu, Nitin Nitin,
     Aaron D. Smith, Tarek I. Zohdi, Stephen F. Brown
   year: 2024
   url: https://doi.org/10.1002/aaai.12164
@@ -147,12 +146,12 @@
 - title: An Open Source Simulation Toolbox for Annotation of Images and Point Clouds
     in Agricultural Scenarios
   authors: Dario Guevara, Amogh Joshi, Pranav Raja, Elisabeth Forrestel, Brian Bailey,
-    Mason Earles
+    J. Mason Earles
   year: 2023
   url: https://doi.org/10.1007/978-3-031-47969-4_43
 - title: Automated parameterization of stomatal conductance models from thermal imagery
     by leveraging synthetic images generated from Helios 3D biophysical model simulations
-  authors: Ismael Mayanja, Heesup Yun, Mason Earles, Brian N. Bailey
+  authors: Ismael Mayanja, Heesup Yun, J. Mason Earles, Brian N. Bailey
   year: 2023
   url: https://doi.org/10.22541/essoar.169772153.35281511/v1
 - title: Biometeorological Dataset for 'Novel algorithms for high resolution prediction
@@ -163,7 +162,7 @@
   url: https://doi.org/10.5281/zenodo.7983157
 - title: Erratum for Ma et al., “Accelerating the Detection of Bacteria in Food Using
     Artificial Intelligence and Optical Imaging”
-  authors: Luyao Ma, Jiyoon Yi, Nicharee Wisuthiphaet, Mason Earles, Nitin Nitin
+  authors: Luyao Ma, Jiyoon Yi, Nicharee Wisuthiphaet, J. Mason Earles, Nitin Nitin
   year: 2023
   url: https://doi.org/10.1128/aem.00644-23
 - title: Novel algorithms for high-resolution prediction of canopy evapotranspiration
@@ -186,17 +185,17 @@
   url: https://doi.org/10.48550/arxiv.2203.09674
 - title: Accelerating the Detection of Bacteria in Food Using Artificial Intelligence
     and Optical Imaging
-  authors: Luyao Ma, Jiyoon Yi, Nicharee Wisuthiphaet, Mason Earles, Nitin Nitin
+  authors: Luyao Ma, Jiyoon Yi, Nicharee Wisuthiphaet, J. Mason Earles, Nitin Nitin
   year: 2022
   url: https://doi.org/10.1128/aem.01828-22
 - title: Non-destructive Plant Biomass Monitoring With High Spatio-Temporal Resolution
     via Proximal RGB-D Imagery and End-to-End Deep Learning
-  authors: Nicolas Buxbaum, Johann Heinrich Lieth, Mason Earles
+  authors: Nicolas Buxbaum, Johann Heinrich Lieth, J. Mason Earles
   year: 2022
   url: https://doi.org/10.3389/fpls.2022.758818
 - title: Standardizing and Centralizing Datasets to Enable Efficient Training of Agricultural
     Deep Learning Models
-  authors: Joshi, Amogh, Guevara, Dario, Earles, Mason
+  authors: Joshi, Amogh, Guevara, Dario, Earles, J. Mason
   year: 2022
   url: https://doi.org/10.48550/arxiv.2208.02707
   github: https://github.com/Project-AgML/AgML
@@ -224,12 +223,12 @@
   url: ''
 - title: Enlisting 3D Crop Models and GANs for More Data Efficient and Generalizable
     Fruit Detection
-  authors: Zhenghao Fei, Alex Olenskyj, Brian N. Bailey, Mason Earles
+  authors: Zhenghao Fei, Alex Olenskyj, Brian N. Bailey, J. Mason Earles
   year: 2021
   url: https://doi.org/10.1109/iccvw54120.2021.00147
   github: https://github.com/plant-ai-biophysics-lab/CropGAN
 - title: Improving Walnut (J. regia) Kernel Color Analyses
-  authors: Steven Lee, Mason Earles, Sean McDowell, Patrick Brown
+  authors: Steven Lee, J. Mason Earles, Sean McDowell, Patrick Brown
   year: 2021
   url: https://doi.org/10.1002/essoar.10509229.1
 - title: Maximum CO <sub>2</sub> diffusion inside leaves is limited by the scaling
@@ -257,7 +256,7 @@
   url: https://doi.org/10.6084/m9.figshare.13889500.v1
 - title: Simultaneously Predicting Multiple Plant Traits from Multiple Sensors via
     Deformable CNN Regression
-  authors: Raja, Pranav, Olenskyj, Alex, Kamangir, Hamid, Earles, Mason
+  authors: Raja, Pranav, Olenskyj, Alex, Kamangir, Hamid, Earles, J. Mason
   year: 2021
   url: https://doi.org/10.48550/arxiv.2112.03205
 - title: Supplementary Tables from Maximum CO<sub>2</sub> diffusion inside leaves
@@ -269,7 +268,7 @@
   url: https://doi.org/10.6084/m9.figshare.13889503
 - title: The 3D construction of leaves is coordinated with water use efficiency in
     conifers
-  authors: Santiago Trueba, Guillaume Théroux-Rancourt, J Mason Earles, Thomas N.
+  authors: Santiago Trueba, Guillaume Théroux-Rancourt, J. Mason Earles, Thomas N.
     Buckley, David Love, Daniel M Johnson, Craig Brodersen
   year: 2021
   url: https://doi.org/10.1101/2021.04.23.441113
@@ -325,8 +324,7 @@
   year: 2019
   url: https://doi.org/10.1101/814954
 - title: Dynamics of carbohydrate storage in trees
-  authors: Tixier, Aude, Orozco, Jessica, Amico Roxas, Adèle, Guzman, Paula, Earles,
-    Mason, Sperling, Or, Zwieniecki, Maciej
+  authors: Tixier, Aude, Orozco, Jessica, Amico Roxas, Adèle, Guzman, Paula, Earles, J. Mason, Sperling, Or, Zwieniecki, Maciej
   year: 2019
   url: https://hal.inrae.fr/hal-02786942
 - title: Spatiotemporal Coupling of Vessel Cavitation and Discharge of Stored Xylem
@@ -355,7 +353,7 @@
   url: https://ui.adsabs.harvard.edu/abs/2018EGUGA..2012716M/abstract
 - title: 'Changes in xylem conducting capacity and water storage across species: how
     can variable air content of xylem cells affect sap flow?'
-  authors: A.J. McElrone, J.M. Earles, T.M. Knipfer, C.P. Albuquerque, C.R. Brodersen,
+  authors: A.J. McElrone, J. Mason Earles, T.M. Knipfer, C.P. Albuquerque, C.R. Brodersen,
     I.F. Cuneo
   year: 2018
   url: https://doi.org/10.17660/actahortic.2018.1222.2
@@ -482,6 +480,6 @@
   url: https://digitalcommons.library.umaine.edu/etd/1302
 - title: Comparative life cycle assessment of biofuel produced in two forest product
     biorefineries
-  authors: Mason Earles, Anthony Halog
+  authors: J. Mason Earles, Anthony Halog
   year: 2010
   url: https://openalex.org/W2921174475
