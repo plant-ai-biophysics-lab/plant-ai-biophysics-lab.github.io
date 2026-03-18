@@ -25,6 +25,7 @@
   year: 2026
   url: https://arxiv.org/abs/2512.15977
   podcast_url: https://paibl-web-assets.s3.us-west-1.amazonaws.com/podcasts/Why_Generalist_AI_Fails_at_Crop_Diagnosis.m4a
+  github: https://github.com/plant-ai-biophysics-lab/agml-vlm-benchmarks
   website: https://eranario.github.io/publications/VLMs-Agriculture/
 - title: 'CMAViT: Integrating Climate, Management, and Remote Sensing Data for Crop
     Yield Prediction With Multimodel Vision Transformers'
